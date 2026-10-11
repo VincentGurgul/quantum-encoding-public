@@ -1,13 +1,26 @@
-'''Benchmark classical and quantum models on multiple datasets with Optuna tuning.
+'''Benchmark classical and quantum classifiers across multiple datasets.
 
-This script evaluates four models for each dataset using Optuna hyperparameter tuning:
-1) Classical NN with fixed hidden layers (16, 16), tuned lr and weight_decay
-2) QNN angle encoding, tuned learning_rate
-3) QNN amplitude encoding with no transform, tuned learning_rate
-4) QNN amplitude encoding with radial-to-linear transform, tuned learning_rate
-5) A synthetic high-dimensional nonlinear dataset
+The script evaluates a classical neural network and three quantum neural
+network configurations: angle encoding, raw amplitude encoding, and
+amplitude encoding with the radial-to-linear feature transformation. Optuna
+performs model-specific hyperparameter tuning within the cross-validation
+workflow. Fold-aggregated metrics, out-of-fold predictions, and pairwise
+significance tests are written to timestamped files under ``results/``; run
+the file as a script rather than importing it because the benchmark executes
+at module level.
 
-Final aggregated metrics are appended iteratively to a timestamped text file.
+Classes:
+    None.
+
+Functions:
+    load_dataset: Load one of the benchmark datasets.
+    preprocess_all_models: Build the shared preprocessing pipeline.
+    to_dense: Convert sparse or array-like data to a dense NumPy array.
+    reduce_features: Reduce feature dimensions with PCA when needed.
+    metric_dict: Compute classification metrics for one prediction set.
+    holm_bonferroni: Adjust p-values with the Holm-Bonferroni procedure.
+    pairwise_instance_significance: Compare model predictions pairwise.
+    evaluate_model: Train and evaluate one model with cross-validation.
 '''
 
 import random

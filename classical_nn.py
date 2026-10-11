@@ -1,17 +1,24 @@
-'''Neural network benchmark model components.
+'''Provide the classical neural-network baseline used by the benchmark.
 
-This module contains a configurable classical neural network with a
-scikit-learn-compatible interface used by the benchmark script.
+The module defines a configurable PyTorch feed-forward classifier. It supports
+binary and multiclass classification, minibatch training, optional
+validation-based early stopping, dropout, and weight decay.
+
+Classes:
+    ClassicalNeuralNetwork: Train and evaluate a PyTorch feed-forward
+        classifier for binary or multiclass prediction.
+
+Functions:
+    None.
 '''
 
 import numpy as np
 import torch
 import torch.nn as nn
-from sklearn.base import BaseEstimator, ClassifierMixin
 
 
-class ClassicalNeuralNetwork(BaseEstimator, ClassifierMixin, nn.Module):
-    '''Scikit-learn-compatible configurable classical neural network.
+class ClassicalNeuralNetwork(nn.Module):
+    '''Configurable classical neural network implemented with PyTorch.
 
     Args:
         width (int): Hidden layer width used when `hidden_sizes` is not

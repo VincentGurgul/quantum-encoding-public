@@ -1,10 +1,25 @@
-'''This module provides custom PennyLane-based input encodings, a configurable
-parameterized quantum circuit ansatz, and a `QuantumNeuralNetwork` class. The
-model can be used for binary and multiclass classification with automatic inference of input size, output size, and qubit requirements from training data.
+'''Provides quantum encodings, a trainable QNN, and feature transformations.
 
-In addition, the module contains a set of feature transformation helpers used
-for amplitude and angle encodings, as well as a runnable example at the bottom
-of the file for visualizing learned decision boundaries on synthetic datasets.
+The module defines custom PennyLane encoding operations, a configurable
+parameterized quantum-circuit ansatz, and ``QuantumNeuralNetwork`` class for binary
+and multiclass classification. The QNN infers the required input, output, and
+qubit dimensions from training data and supports angle, stacked-angle, and
+amplitude encodings. Feature-transformation helpers and a runnable synthetic
+decision-boundary demonstration are also included.
+
+Classes:
+    AngleEncoding: Apply one rotation angle to each supplied feature.
+    StackedAngleEncoding: Reuse qubits for stacked angle features.
+    AmplitudeEncoding: Prepare a quantum state from feature amplitudes.
+    ParameterizedQuantumCircuit: Build the trainable circuit ansatz.
+    QuantumNeuralNetwork: Train and evaluate a PennyLane-based QNN.
+
+Functions:
+    min_max_scale_to_range: Scale features to a specified interval.
+    normalized_arcsin: Scale features and apply arcsine elementwise.
+    normalized_arccos: Scale features and apply arccosine elementwise.
+    standardize: Standardize features using their mean and standard deviation.
+    radial_to_linear: Augment features with squares and cosine values.
 '''
 
 # Environment: .qrl-env

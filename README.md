@@ -30,7 +30,7 @@ The implementation uses PennyLane for differentiable quantum circuits, PyTorch f
 ```text
 quantum-encoding-public/
 ├── 2d_visualizations.py   # Generate 2-D decision-boundary figures
-├── classical_nn.py        # Classical PyTorch/scikit-learn-compatible baseline
+├── classical_nn.py        # Classical PyTorch neural-network baseline
 ├── main.py                # Main cross-validation benchmark and significance tests
 ├── qnn.py                 # Quantum encodings, QNN model, and feature transforms
 ├── requirements.txt       # Python dependencies for the reproducibility environment
@@ -55,7 +55,7 @@ The module also has a runnable demonstration under its `if __name__ == '__main__
 
 ### `classical_nn.py`
 
-Defines `ClassicalNeuralNetwork`, a feed-forward PyTorch classifier that also follows the familiar scikit-learn estimator interface. It can be configured with either:
+Defines `ClassicalNeuralNetwork`, a configurable feed-forward PyTorch classifier. It can be configured with either:
 
 - a repeated `width` and number of `layers`, or
 - explicit `hidden_sizes`, such as `(16, 16)`.

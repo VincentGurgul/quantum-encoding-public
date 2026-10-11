@@ -1,3 +1,21 @@
+'''Generate the paper's two-dimensional QNN decision-boundary figures.
+
+The script trains several quantum-neural-network configurations on linear,
+circles, and moons toy datasets. It plots their class-probability surfaces
+alongside the training samples and saves one high-resolution figure per model
+configuration under ``plots/``.
+
+Classes:
+    None.
+
+Functions:
+    custom_map_exp: Standardize features and append their exponentials.
+    make_datasets_and_grid: Create toy datasets and a plotting grid.
+    build_qnn_configurations: Define the QNN configurations to compare.
+    run_single_model_on_dataset: Train one QNN and return predictions.
+    plot_and_save_figure: Plot and save a model's decision-boundary figure.
+'''
+
 from pathlib import Path
 
 import matplotlib.pyplot as plt
