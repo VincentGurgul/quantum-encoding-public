@@ -1,0 +1,573 @@
+2026-07-19 16:09:18 | INFO     | Benchmark run started
+2026-07-19 16:09:18 | INFO     | Results file: results/benchmark_results_2026-07-19_16-09-18.txt
+2026-07-19 16:09:18 | INFO     | Log file: logs/benchmark_log_2026-07-19_16-09-18.log
+2026-07-19 16:09:18 | DEBUG    | Configuration | seed=69 | cv_folds=6 | datasets=['Breast Cancer', 'Wine', 'Digits', 'Adult']
+2026-07-19 16:09:18 | INFO     | Dataset started: Breast Cancer
+2026-07-19 16:09:18 | INFO     | [Breast Cancer] Classical NN (16, 16) started
+2026-07-19 16:09:18 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 1/6 started
+2026-07-19 16:09:18 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 1/6 Optuna started (trials=20)
+2026-07-19 16:09:21 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 1/6 Optuna finished | best_value=1.000000 | best_params={'lr': 0.057328043306882404, 'weight_decay': 0.0009918791294625975}
+2026-07-19 16:09:21 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 1/6 finished
+2026-07-19 16:09:21 | DEBUG    | [Breast Cancer] Classical NN (16, 16) | Fold 1/6 metrics={'accuracy': 0.9473684210526315, 'balanced_accuracy': np.float64(0.935969868173258), 'f1_macro': np.float64(0.9431069589172356), 'precision_macro': np.float64(0.9525904203323559), 'recall_macro': np.float64(0.935969868173258), 'roc_auc': np.float64(0.9962335216572504), 'aupr': np.float64(0.9977443457991346)}
+2026-07-19 16:09:21 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 2/6 started
+2026-07-19 16:09:21 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 2/6 Optuna started (trials=20)
+2026-07-19 16:09:24 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 2/6 Optuna finished | best_value=0.985714 | best_params={'lr': 0.030377502053664567, 'weight_decay': 0.009308375465725932}
+2026-07-19 16:09:24 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 2/6 finished
+2026-07-19 16:09:24 | DEBUG    | [Breast Cancer] Classical NN (16, 16) | Fold 2/6 metrics={'accuracy': 0.968421052631579, 'balanced_accuracy': np.float64(0.9583333333333333), 'f1_macro': np.float64(0.9658641753503414), 'precision_macro': np.float64(0.9758064516129032), 'recall_macro': np.float64(0.9583333333333333), 'roc_auc': np.float64(0.993879472693032), 'aupr': np.float64(0.9962064100709196)}
+2026-07-19 16:09:24 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 3/6 started
+2026-07-19 16:09:24 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 3/6 Optuna started (trials=20)
+2026-07-19 16:09:26 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 3/6 Optuna finished | best_value=0.991667 | best_params={'lr': 0.03377875938617804, 'weight_decay': 3.7874948254459585e-06}
+2026-07-19 16:09:27 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 3/6 finished
+2026-07-19 16:09:27 | DEBUG    | [Breast Cancer] Classical NN (16, 16) | Fold 3/6 metrics={'accuracy': 0.9368421052631579, 'balanced_accuracy': np.float64(0.944047619047619), 'f1_macro': np.float64(0.9335973904939423), 'precision_macro': np.float64(0.9269688644688645), 'recall_macro': np.float64(0.944047619047619), 'roc_auc': np.float64(0.9971428571428571), 'aupr': np.float64(0.9983223479552561)}
+2026-07-19 16:09:27 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 4/6 started
+2026-07-19 16:09:27 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 4/6 Optuna started (trials=20)
+2026-07-19 16:09:29 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 4/6 Optuna finished | best_value=0.971429 | best_params={'lr': 0.011788856878223687, 'weight_decay': 9.757981598763196e-07}
+2026-07-19 16:09:29 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 4/6 finished
+2026-07-19 16:09:29 | DEBUG    | [Breast Cancer] Classical NN (16, 16) | Fold 4/6 metrics={'accuracy': 0.9894736842105263, 'balanced_accuracy': np.float64(0.9857142857142858), 'f1_macro': np.float64(0.9886213917834472), 'precision_macro': np.float64(0.9918032786885246), 'recall_macro': np.float64(0.9857142857142858), 'roc_auc': np.float64(1.0), 'aupr': np.float64(1.0)}
+2026-07-19 16:09:29 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 5/6 started
+2026-07-19 16:09:29 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 5/6 Optuna started (trials=20)
+2026-07-19 16:09:32 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 5/6 Optuna finished | best_value=0.985714 | best_params={'lr': 0.0451517417504156, 'weight_decay': 0.00048186176805619686}
+2026-07-19 16:09:32 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 5/6 finished
+2026-07-19 16:09:32 | DEBUG    | [Breast Cancer] Classical NN (16, 16) | Fold 5/6 metrics={'accuracy': 0.968421052631579, 'balanced_accuracy': np.float64(0.969047619047619), 'f1_macro': np.float64(0.966268197419813), 'precision_macro': np.float64(0.9637476459510358), 'recall_macro': np.float64(0.969047619047619), 'roc_auc': np.float64(0.9933333333333333), 'aupr': np.float64(0.9956949997692685)}
+2026-07-19 16:09:32 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 6/6 started
+2026-07-19 16:09:32 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 6/6 Optuna started (trials=20)
+2026-07-19 16:09:34 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 6/6 Optuna finished | best_value=0.977381 | best_params={'lr': 0.0016580522106352834, 'weight_decay': 0.0002550215987278443}
+2026-07-19 16:09:34 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 6/6 finished
+2026-07-19 16:09:34 | DEBUG    | [Breast Cancer] Classical NN (16, 16) | Fold 6/6 metrics={'accuracy': 0.9787234042553191, 'balanced_accuracy': np.float64(0.9714285714285714), 'f1_macro': np.float64(0.9769607843137255), 'precision_macro': np.float64(0.9836065573770492), 'recall_macro': np.float64(0.9714285714285714), 'roc_auc': np.float64(0.9869249394673123), 'aupr': np.float64(0.9906021603169202)}
+2026-07-19 16:09:34 | INFO     | [Breast Cancer] Classical NN (16, 16) finished
+2026-07-19 16:09:34 | DEBUG    | [Breast Cancer] Classical NN (16, 16) summary={'accuracy': '0.9649 ± 0.0196', 'balanced_accuracy': '0.9608 ± 0.0185', 'f1_macro': '0.9624 ± 0.0206', 'precision_macro': '0.9658 ± 0.0236', 'recall_macro': '0.9608 ± 0.0185', 'roc_auc': '0.9946 ± 0.0045', 'aupr': '0.9964 ± 0.0032'}
+2026-07-19 16:09:34 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) started
+2026-07-19 16:09:34 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 1/6 started
+2026-07-19 16:09:34 | DEBUG    | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 1/6 PCA applied with max_features=8
+2026-07-19 16:09:34 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 1/6 Optuna started (trials=20)
+2026-07-19 16:12:44 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 1/6 Optuna finished | best_value=0.657143 | best_params={'learning_rate': 0.01174428452892654}
+2026-07-19 16:12:57 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 1/6 finished
+2026-07-19 16:12:57 | DEBUG    | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 1/6 metrics={'accuracy': 0.7368421052631579, 'balanced_accuracy': np.float64(0.6690207156308852), 'f1_macro': np.float64(0.6729100674838177), 'precision_macro': np.float64(0.7707390648567118), 'recall_macro': np.float64(0.6690207156308852), 'roc_auc': np.float64(0.7372881355932204), 'aupr': np.float64(0.8126694125554048)}
+2026-07-19 16:12:57 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 2/6 started
+2026-07-19 16:12:57 | DEBUG    | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 2/6 PCA applied with max_features=8
+2026-07-19 16:12:57 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 2/6 Optuna started (trials=20)
+2026-07-19 16:16:35 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 2/6 Optuna finished | best_value=0.667857 | best_params={'learning_rate': 0.11555763166022882}
+2026-07-19 16:16:49 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 2/6 finished
+2026-07-19 16:16:49 | DEBUG    | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 2/6 metrics={'accuracy': 0.6526315789473685, 'balanced_accuracy': np.float64(0.6012241054613936), 'f1_macro': np.float64(0.6016012199771255), 'precision_macro': np.float64(0.6228571428571429), 'recall_macro': np.float64(0.6012241054613936), 'roc_auc': np.float64(0.751412429378531), 'aupr': np.float64(0.834653427907788)}
+2026-07-19 16:16:49 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 3/6 started
+2026-07-19 16:16:49 | DEBUG    | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 3/6 PCA applied with max_features=8
+2026-07-19 16:16:49 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 3/6 Optuna started (trials=20)
+2026-07-19 16:20:26 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 3/6 Optuna finished | best_value=0.663095 | best_params={'learning_rate': 0.001075087639728811}
+2026-07-19 16:20:40 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 3/6 finished
+2026-07-19 16:20:40 | DEBUG    | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 3/6 metrics={'accuracy': 0.6842105263157895, 'balanced_accuracy': np.float64(0.5892857142857143), 'f1_macro': np.float64(0.5697463768115942), 'precision_macro': np.float64(0.702922077922078), 'recall_macro': np.float64(0.5892857142857143), 'roc_auc': np.float64(0.6580952380952381), 'aupr': np.float64(0.7355275403817101)}
+2026-07-19 16:20:40 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 4/6 started
+2026-07-19 16:20:40 | DEBUG    | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 4/6 PCA applied with max_features=8
+2026-07-19 16:20:40 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 4/6 Optuna started (trials=20)
+2026-07-19 16:24:11 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 4/6 Optuna finished | best_value=0.634524 | best_params={'learning_rate': 0.041405605896370316}
+2026-07-19 16:24:24 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 4/6 finished
+2026-07-19 16:24:24 | DEBUG    | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 4/6 metrics={'accuracy': 0.7263157894736842, 'balanced_accuracy': np.float64(0.6761904761904762), 'f1_macro': np.float64(0.6833333333333333), 'precision_macro': np.float64(0.7114285714285715), 'recall_macro': np.float64(0.6761904761904762), 'roc_auc': np.float64(0.7623809523809524), 'aupr': np.float64(0.8390716014196239)}
+2026-07-19 16:24:24 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 5/6 started
+2026-07-19 16:24:24 | DEBUG    | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 5/6 PCA applied with max_features=8
+2026-07-19 16:24:24 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 5/6 Optuna started (trials=20)
+2026-07-19 16:27:56 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 5/6 Optuna finished | best_value=0.561905 | best_params={'learning_rate': 0.007515151078689087}
+2026-07-19 16:28:10 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 5/6 finished
+2026-07-19 16:28:10 | DEBUG    | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 5/6 metrics={'accuracy': 0.6421052631578947, 'balanced_accuracy': np.float64(0.5916666666666667), 'f1_macro': np.float64(0.5929939516129032), 'precision_macro': np.float64(0.6048474945533768), 'recall_macro': np.float64(0.5916666666666667), 'roc_auc': np.float64(0.7390476190476191), 'aupr': np.float64(0.8629841711863934)}
+2026-07-19 16:28:10 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 6/6 started
+2026-07-19 16:28:10 | DEBUG    | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 6/6 PCA applied with max_features=8
+2026-07-19 16:28:10 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 6/6 Optuna started (trials=20)
+2026-07-19 16:31:44 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 6/6 Optuna finished | best_value=0.663095 | best_params={'learning_rate': 0.02755947100565167}
+2026-07-19 16:31:58 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 6/6 finished
+2026-07-19 16:31:58 | DEBUG    | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 6/6 metrics={'accuracy': 0.6914893617021277, 'balanced_accuracy': np.float64(0.6205811138014528), 'f1_macro': np.float64(0.6190076869322152), 'precision_macro': np.float64(0.6820175438596491), 'recall_macro': np.float64(0.6205811138014528), 'roc_auc': np.float64(0.713317191283293), 'aupr': np.float64(0.8274713233530131)}
+2026-07-19 16:31:58 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) finished
+2026-07-19 16:31:58 | DEBUG    | [Breast Cancer] QNN Angle (No In-Model Standardize) summary={'accuracy': '0.6889 ± 0.038', 'balanced_accuracy': '0.6247 ± 0.0388', 'f1_macro': '0.6233 ± 0.0455', 'precision_macro': '0.6825 ± 0.061', 'recall_macro': '0.6247 ± 0.0388', 'roc_auc': '0.7269 ± 0.0375', 'aupr': '0.8187 ± 0.044'}
+2026-07-19 16:31:58 | INFO     | [Breast Cancer] QNN Amplitude Raw started
+2026-07-19 16:31:58 | INFO     | [Breast Cancer] QNN Amplitude Raw | Fold 1/6 started
+2026-07-19 16:31:58 | INFO     | [Breast Cancer] QNN Amplitude Raw | Fold 1/6 Optuna started (trials=20)
+2026-07-19 16:33:22 | INFO     | [Breast Cancer] QNN Amplitude Raw | Fold 1/6 Optuna finished | best_value=0.688095 | best_params={'learning_rate': 0.04759275502901086}
+2026-07-19 16:33:27 | INFO     | [Breast Cancer] QNN Amplitude Raw | Fold 1/6 finished
+2026-07-19 16:33:27 | DEBUG    | [Breast Cancer] QNN Amplitude Raw | Fold 1/6 metrics={'accuracy': 0.7157894736842105, 'balanced_accuracy': np.float64(0.6683145009416196), 'f1_macro': np.float64(0.6740373617994662), 'precision_macro': np.float64(0.7042857142857143), 'recall_macro': np.float64(0.6683145009416196), 'roc_auc': np.float64(0.6793785310734463), 'aupr': np.float64(0.7254107589064396)}
+2026-07-19 16:33:27 | INFO     | [Breast Cancer] QNN Amplitude Raw | Fold 2/6 started
+2026-07-19 16:33:27 | INFO     | [Breast Cancer] QNN Amplitude Raw | Fold 2/6 Optuna started (trials=20)
+2026-07-19 16:34:51 | INFO     | [Breast Cancer] QNN Amplitude Raw | Fold 2/6 Optuna finished | best_value=0.709524 | best_params={'learning_rate': 0.15910688400463877}
+2026-07-19 16:34:56 | INFO     | [Breast Cancer] QNN Amplitude Raw | Fold 2/6 finished
+2026-07-19 16:34:56 | DEBUG    | [Breast Cancer] QNN Amplitude Raw | Fold 2/6 metrics={'accuracy': 0.7789473684210526, 'balanced_accuracy': np.float64(0.7516478342749529), 'f1_macro': np.float64(0.7579177284310157), 'precision_macro': np.float64(0.7694052419354839), 'recall_macro': np.float64(0.7516478342749529), 'roc_auc': np.float64(0.82909604519774), 'aupr': np.float64(0.8705962564581224)}
+2026-07-19 16:34:56 | INFO     | [Breast Cancer] QNN Amplitude Raw | Fold 3/6 started
+2026-07-19 16:34:56 | INFO     | [Breast Cancer] QNN Amplitude Raw | Fold 3/6 Optuna started (trials=20)
+2026-07-19 16:36:20 | INFO     | [Breast Cancer] QNN Amplitude Raw | Fold 3/6 Optuna finished | best_value=0.671429 | best_params={'learning_rate': 0.014005724084064208}
+2026-07-19 16:36:25 | INFO     | [Breast Cancer] QNN Amplitude Raw | Fold 3/6 finished
+2026-07-19 16:36:25 | DEBUG    | [Breast Cancer] QNN Amplitude Raw | Fold 3/6 metrics={'accuracy': 0.7263157894736842, 'balanced_accuracy': np.float64(0.6702380952380952), 'f1_macro': np.float64(0.6773772204806687), 'precision_macro': np.float64(0.7158816425120773), 'recall_macro': np.float64(0.6702380952380952), 'roc_auc': np.float64(0.8104761904761906), 'aupr': np.float64(0.8913391162596608)}
+2026-07-19 16:36:25 | INFO     | [Breast Cancer] QNN Amplitude Raw | Fold 4/6 started
+2026-07-19 16:36:25 | INFO     | [Breast Cancer] QNN Amplitude Raw | Fold 4/6 Optuna started (trials=20)
+2026-07-19 16:37:49 | INFO     | [Breast Cancer] QNN Amplitude Raw | Fold 4/6 Optuna finished | best_value=0.642857 | best_params={'learning_rate': 0.01994503776453054}
+2026-07-19 16:37:54 | INFO     | [Breast Cancer] QNN Amplitude Raw | Fold 4/6 finished
+2026-07-19 16:37:54 | DEBUG    | [Breast Cancer] QNN Amplitude Raw | Fold 4/6 metrics={'accuracy': 0.7894736842105263, 'balanced_accuracy': np.float64(0.7321428571428571), 'f1_macro': np.float64(0.7468017057569296), 'precision_macro': np.float64(0.8137065637065637), 'recall_macro': np.float64(0.7321428571428571), 'roc_auc': np.float64(0.8347619047619048), 'aupr': np.float64(0.8858948164740085)}
+2026-07-19 16:37:54 | INFO     | [Breast Cancer] QNN Amplitude Raw | Fold 5/6 started
+2026-07-19 16:37:54 | INFO     | [Breast Cancer] QNN Amplitude Raw | Fold 5/6 Optuna started (trials=20)
+2026-07-19 16:39:18 | INFO     | [Breast Cancer] QNN Amplitude Raw | Fold 5/6 Optuna finished | best_value=0.660714 | best_params={'learning_rate': 0.062359218229005524}
+2026-07-19 16:39:23 | INFO     | [Breast Cancer] QNN Amplitude Raw | Fold 5/6 finished
+2026-07-19 16:39:23 | DEBUG    | [Breast Cancer] QNN Amplitude Raw | Fold 5/6 metrics={'accuracy': 0.6947368421052632, 'balanced_accuracy': np.float64(0.6452380952380953), 'f1_macro': np.float64(0.6498919811920194), 'precision_macro': np.float64(0.6700111482720179), 'recall_macro': np.float64(0.6452380952380953), 'roc_auc': np.float64(0.700952380952381), 'aupr': np.float64(0.7687626380454959)}
+2026-07-19 16:39:23 | INFO     | [Breast Cancer] QNN Amplitude Raw | Fold 6/6 started
+2026-07-19 16:39:23 | INFO     | [Breast Cancer] QNN Amplitude Raw | Fold 6/6 Optuna started (trials=20)
+2026-07-19 16:40:48 | INFO     | [Breast Cancer] QNN Amplitude Raw | Fold 6/6 Optuna finished | best_value=0.623810 | best_params={'learning_rate': 0.00958556710619885}
+2026-07-19 16:40:53 | INFO     | [Breast Cancer] QNN Amplitude Raw | Fold 6/6 finished
+2026-07-19 16:40:53 | DEBUG    | [Breast Cancer] QNN Amplitude Raw | Fold 6/6 metrics={'accuracy': 0.7340425531914894, 'balanced_accuracy': np.float64(0.7009685230024213), 'f1_macro': np.float64(0.7060662914321452), 'precision_macro': np.float64(0.7161458333333333), 'recall_macro': np.float64(0.7009685230024213), 'roc_auc': np.float64(0.7738498789346248), 'aupr': np.float64(0.8464494824729867)}
+2026-07-19 16:40:53 | INFO     | [Breast Cancer] QNN Amplitude Raw finished
+2026-07-19 16:40:53 | DEBUG    | [Breast Cancer] QNN Amplitude Raw summary={'accuracy': '0.7399 ± 0.0369', 'balanced_accuracy': '0.6948 ± 0.041', 'f1_macro': '0.702 ± 0.043', 'precision_macro': '0.7316 ± 0.0514', 'recall_macro': '0.6948 ± 0.041', 'roc_auc': '0.7714 ± 0.0668', 'aupr': '0.8314 ± 0.0685'}
+2026-07-19 16:40:53 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear started
+2026-07-19 16:40:53 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 1/6 started
+2026-07-19 16:40:53 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 1/6 Optuna started (trials=20)
+2026-07-19 16:43:37 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 1/6 Optuna finished | best_value=0.928571 | best_params={'learning_rate': 0.17755785870308258}
+2026-07-19 16:43:47 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 1/6 finished
+2026-07-19 16:43:47 | DEBUG    | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 1/6 metrics={'accuracy': 0.9157894736842105, 'balanced_accuracy': np.float64(0.8888888888888888), 'f1_macro': np.float64(0.9057539682539683), 'precision_macro': np.float64(0.9402985074626866), 'recall_macro': np.float64(0.8888888888888888), 'roc_auc': np.float64(0.967984934086629), 'aupr': np.float64(0.9794215902733134)}
+2026-07-19 16:43:47 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 2/6 started
+2026-07-19 16:43:47 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 2/6 Optuna started (trials=20)
+2026-07-19 16:46:31 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 2/6 Optuna finished | best_value=0.905952 | best_params={'learning_rate': 0.003731946031151584}
+2026-07-19 16:46:41 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 2/6 finished
+2026-07-19 16:46:41 | DEBUG    | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 2/6 metrics={'accuracy': 0.8842105263157894, 'balanced_accuracy': np.float64(0.8742937853107344), 'f1_macro': np.float64(0.8763167238726477), 'precision_macro': np.float64(0.8785714285714286), 'recall_macro': np.float64(0.8742937853107344), 'roc_auc': np.float64(0.9557438794726929), 'aupr': np.float64(0.9718733804196258)}
+2026-07-19 16:46:41 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 3/6 started
+2026-07-19 16:46:41 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 3/6 Optuna started (trials=20)
+2026-07-19 16:49:26 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 3/6 Optuna finished | best_value=0.928571 | best_params={'learning_rate': 0.1204631178538925}
+2026-07-19 16:49:36 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 3/6 finished
+2026-07-19 16:49:36 | DEBUG    | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 3/6 metrics={'accuracy': 0.9052631578947369, 'balanced_accuracy': np.float64(0.8952380952380952), 'f1_macro': np.float64(0.897592526051024), 'precision_macro': np.float64(0.9001928640308583), 'recall_macro': np.float64(0.8952380952380952), 'roc_auc': np.float64(0.9623809523809524), 'aupr': np.float64(0.9782085795730252)}
+2026-07-19 16:49:36 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 4/6 started
+2026-07-19 16:49:36 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 4/6 Optuna started (trials=20)
+2026-07-19 16:52:20 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 4/6 Optuna finished | best_value=0.877381 | best_params={'learning_rate': 0.0010294956472560485}
+2026-07-19 16:52:31 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 4/6 finished
+2026-07-19 16:52:31 | DEBUG    | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 4/6 metrics={'accuracy': 0.9157894736842105, 'balanced_accuracy': np.float64(0.8976190476190476), 'f1_macro': np.float64(0.9071358748778103), 'precision_macro': np.float64(0.920866935483871), 'recall_macro': np.float64(0.8976190476190476), 'roc_auc': np.float64(0.9638095238095238), 'aupr': np.float64(0.9760003806127086)}
+2026-07-19 16:52:31 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 5/6 started
+2026-07-19 16:52:31 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 5/6 Optuna started (trials=20)
+2026-07-19 16:55:12 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 5/6 Optuna finished | best_value=0.891667 | best_params={'learning_rate': 0.03152878232337309}
+2026-07-19 16:55:23 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 5/6 finished
+2026-07-19 16:55:23 | DEBUG    | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 5/6 metrics={'accuracy': 0.8842105263157894, 'balanced_accuracy': np.float64(0.8607142857142858), 'f1_macro': np.float64(0.8713846153846154), 'precision_macro': np.float64(0.8884615384615384), 'recall_macro': np.float64(0.8607142857142858), 'roc_auc': np.float64(0.959047619047619), 'aupr': np.float64(0.9748508241179566)}
+2026-07-19 16:55:23 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 6/6 started
+2026-07-19 16:55:23 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 6/6 Optuna started (trials=20)
+2026-07-19 16:58:04 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 6/6 Optuna finished | best_value=0.963095 | best_params={'learning_rate': 0.16630019931918472}
+2026-07-19 16:58:14 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 6/6 finished
+2026-07-19 16:58:14 | DEBUG    | [Breast Cancer] QNN Amplitude + RadialToLinear | Fold 6/6 metrics={'accuracy': 0.925531914893617, 'balanced_accuracy': np.float64(0.905811138014528), 'f1_macro': np.float64(0.9176985616010007), 'precision_macro': np.float64(0.9364583333333334), 'recall_macro': np.float64(0.905811138014528), 'roc_auc': np.float64(0.9578692493946731), 'aupr': np.float64(0.9702918917406784)}
+2026-07-19 16:58:14 | INFO     | [Breast Cancer] QNN Amplitude + RadialToLinear finished
+2026-07-19 16:58:14 | DEBUG    | [Breast Cancer] QNN Amplitude + RadialToLinear summary={'accuracy': '0.9051 ± 0.0174', 'balanced_accuracy': '0.8871 ± 0.0167', 'f1_macro': '0.896 ± 0.0184', 'precision_macro': '0.9108 ± 0.0256', 'recall_macro': '0.8871 ± 0.0167', 'roc_auc': '0.9611 ± 0.0045', 'aupr': '0.9751 ± 0.0035'}
+2026-07-19 16:58:14 | INFO     | [Breast Cancer] Pairwise significance analysis completed
+2026-07-19 16:58:14 | DEBUG    | [Breast Cancer] Pairwise significance results=[{'model_a': 'Classical NN (16, 16)', 'model_b': 'QNN Angle (No In-Model Standardize)', 'acc_a': 0.9648506151142355, 'acc_b': 0.6889279437609842, 'acc_diff_a_minus_b': 0.2759226713532513, 'b_a_correct_b_wrong': 168, 'c_a_wrong_b_correct': 11, 'discordant': 179, 'p_value': 3.0887846315815043e-37, 'p_value_holm': 1.8532707789489025e-36, 'significant_0.05': True}, {'model_a': 'Classical NN (16, 16)', 'model_b': 'QNN Amplitude Raw', 'acc_a': 0.9648506151142355, 'acc_b': 0.7398945518453427, 'acc_diff_a_minus_b': 0.22495606326889284, 'b_a_correct_b_wrong': 140, 'c_a_wrong_b_correct': 12, 'discordant': 152, 'p_value': 7.78101228194531e-29, 'p_value_holm': 3.890506140972655e-28, 'significant_0.05': True}, {'model_a': 'Classical NN (16, 16)', 'model_b': 'QNN Amplitude + RadialToLinear', 'acc_a': 0.9648506151142355, 'acc_b': 0.9050966608084359, 'acc_diff_a_minus_b': 0.05975395430579966, 'b_a_correct_b_wrong': 45, 'c_a_wrong_b_correct': 11, 'discordant': 56, 'p_value': 5.37831811014966e-06, 'p_value_holm': 1.075663622029932e-05, 'significant_0.05': True}, {'model_a': 'QNN Angle (No In-Model Standardize)', 'model_b': 'QNN Amplitude Raw', 'acc_a': 0.6889279437609842, 'acc_b': 0.7398945518453427, 'acc_diff_a_minus_b': -0.05096660808435849, 'b_a_correct_b_wrong': 68, 'c_a_wrong_b_correct': 97, 'discordant': 165, 'p_value': 0.028964848553676516, 'p_value_holm': 0.028964848553676516, 'significant_0.05': True}, {'model_a': 'QNN Angle (No In-Model Standardize)', 'model_b': 'QNN Amplitude + RadialToLinear', 'acc_a': 0.6889279437609842, 'acc_b': 0.9050966608084359, 'acc_diff_a_minus_b': -0.21616871704745166, 'b_a_correct_b_wrong': 25, 'c_a_wrong_b_correct': 148, 'discordant': 173, 'p_value': 1.8659401207770094e-22, 'p_value_holm': 7.463760483108038e-22, 'significant_0.05': True}, {'model_a': 'QNN Amplitude Raw', 'model_b': 'QNN Amplitude + RadialToLinear', 'acc_a': 0.7398945518453427, 'acc_b': 0.9050966608084359, 'acc_diff_a_minus_b': -0.16520210896309317, 'b_a_correct_b_wrong': 30, 'c_a_wrong_b_correct': 124, 'discordant': 154, 'p_value': 8.877470503690157e-15, 'p_value_holm': 2.663241151107047e-14, 'significant_0.05': True}]
+2026-07-19 16:58:14 | INFO     | Dataset finished: Breast Cancer
+2026-07-19 16:58:14 | INFO     | Dataset started: Wine
+2026-07-19 16:58:14 | INFO     | [Wine] Classical NN (16, 16) started
+2026-07-19 16:58:14 | INFO     | [Wine] Classical NN (16, 16) | Fold 1/6 started
+2026-07-19 16:58:14 | INFO     | [Wine] Classical NN (16, 16) | Fold 1/6 Optuna started (trials=20)
+2026-07-19 16:58:15 | INFO     | [Wine] Classical NN (16, 16) | Fold 1/6 Optuna finished | best_value=1.000000 | best_params={'lr': 0.011806568182940506, 'weight_decay': 0.008116392189858468}
+2026-07-19 16:58:15 | INFO     | [Wine] Classical NN (16, 16) | Fold 1/6 finished
+2026-07-19 16:58:15 | DEBUG    | [Wine] Classical NN (16, 16) | Fold 1/6 metrics={'accuracy': 0.9666666666666667, 'balanced_accuracy': np.float64(0.9722222222222222), 'f1_macro': np.float64(0.9658994032395567), 'precision_macro': np.float64(0.9629629629629629), 'recall_macro': np.float64(0.9722222222222222), 'roc_auc_ovr': np.float64(1.0), 'aupr_macro': np.float64(1.0)}
+2026-07-19 16:58:15 | INFO     | [Wine] Classical NN (16, 16) | Fold 2/6 started
+2026-07-19 16:58:15 | INFO     | [Wine] Classical NN (16, 16) | Fold 2/6 Optuna started (trials=20)
+2026-07-19 16:58:16 | INFO     | [Wine] Classical NN (16, 16) | Fold 2/6 Optuna finished | best_value=1.000000 | best_params={'lr': 0.020730635605517144, 'weight_decay': 0.0002571474636468245}
+2026-07-19 16:58:16 | INFO     | [Wine] Classical NN (16, 16) | Fold 2/6 finished
+2026-07-19 16:58:16 | DEBUG    | [Wine] Classical NN (16, 16) | Fold 2/6 metrics={'accuracy': 0.9666666666666667, 'balanced_accuracy': np.float64(0.9722222222222222), 'f1_macro': np.float64(0.9658994032395567), 'precision_macro': np.float64(0.9629629629629629), 'recall_macro': np.float64(0.9722222222222222), 'roc_auc_ovr': np.float64(1.0), 'aupr_macro': np.float64(1.0)}
+2026-07-19 16:58:16 | INFO     | [Wine] Classical NN (16, 16) | Fold 3/6 started
+2026-07-19 16:58:16 | INFO     | [Wine] Classical NN (16, 16) | Fold 3/6 Optuna started (trials=20)
+2026-07-19 16:58:17 | INFO     | [Wine] Classical NN (16, 16) | Fold 3/6 Optuna finished | best_value=1.000000 | best_params={'lr': 0.02599653639757815, 'weight_decay': 2.3103838824167782e-05}
+2026-07-19 16:58:17 | INFO     | [Wine] Classical NN (16, 16) | Fold 3/6 finished
+2026-07-19 16:58:17 | DEBUG    | [Wine] Classical NN (16, 16) | Fold 3/6 metrics={'accuracy': 0.9333333333333333, 'balanced_accuracy': np.float64(0.9444444444444445), 'f1_macro': np.float64(0.9342161106866987), 'precision_macro': np.float64(0.9326599326599326), 'recall_macro': np.float64(0.9444444444444445), 'roc_auc_ovr': np.float64(1.0), 'aupr_macro': np.float64(1.0)}
+2026-07-19 16:58:17 | INFO     | [Wine] Classical NN (16, 16) | Fold 4/6 started
+2026-07-19 16:58:17 | INFO     | [Wine] Classical NN (16, 16) | Fold 4/6 Optuna started (trials=20)
+2026-07-19 16:58:18 | INFO     | [Wine] Classical NN (16, 16) | Fold 4/6 Optuna finished | best_value=1.000000 | best_params={'lr': 0.015558606031578392, 'weight_decay': 2.311663054584552e-06}
+2026-07-19 16:58:18 | INFO     | [Wine] Classical NN (16, 16) | Fold 4/6 finished
+2026-07-19 16:58:18 | DEBUG    | [Wine] Classical NN (16, 16) | Fold 4/6 metrics={'accuracy': 1.0, 'balanced_accuracy': np.float64(1.0), 'f1_macro': np.float64(1.0), 'precision_macro': np.float64(1.0), 'recall_macro': np.float64(1.0), 'roc_auc_ovr': np.float64(1.0), 'aupr_macro': np.float64(1.0)}
+2026-07-19 16:58:18 | INFO     | [Wine] Classical NN (16, 16) | Fold 5/6 started
+2026-07-19 16:58:18 | INFO     | [Wine] Classical NN (16, 16) | Fold 5/6 Optuna started (trials=20)
+2026-07-19 16:58:19 | INFO     | [Wine] Classical NN (16, 16) | Fold 5/6 Optuna finished | best_value=1.000000 | best_params={'lr': 0.005926654621577286, 'weight_decay': 0.0004082368393447378}
+2026-07-19 16:58:19 | INFO     | [Wine] Classical NN (16, 16) | Fold 5/6 finished
+2026-07-19 16:58:19 | DEBUG    | [Wine] Classical NN (16, 16) | Fold 5/6 metrics={'accuracy': 1.0, 'balanced_accuracy': np.float64(1.0), 'f1_macro': np.float64(1.0), 'precision_macro': np.float64(1.0), 'recall_macro': np.float64(1.0), 'roc_auc_ovr': np.float64(1.0), 'aupr_macro': np.float64(1.0)}
+2026-07-19 16:58:19 | INFO     | [Wine] Classical NN (16, 16) | Fold 6/6 started
+2026-07-19 16:58:19 | INFO     | [Wine] Classical NN (16, 16) | Fold 6/6 Optuna started (trials=20)
+2026-07-19 16:58:19 | INFO     | [Wine] Classical NN (16, 16) | Fold 6/6 Optuna finished | best_value=1.000000 | best_params={'lr': 0.003656732321886212, 'weight_decay': 0.004016368835271544}
+2026-07-19 16:58:20 | INFO     | [Wine] Classical NN (16, 16) | Fold 6/6 finished
+2026-07-19 16:58:20 | DEBUG    | [Wine] Classical NN (16, 16) | Fold 6/6 metrics={'accuracy': 0.9655172413793104, 'balanced_accuracy': np.float64(0.9583333333333334), 'f1_macro': np.float64(0.9644444444444445), 'precision_macro': np.float64(0.9743589743589745), 'recall_macro': np.float64(0.9583333333333334), 'roc_auc_ovr': np.float64(1.0), 'aupr_macro': np.float64(1.0)}
+2026-07-19 16:58:20 | INFO     | [Wine] Classical NN (16, 16) finished
+2026-07-19 16:58:20 | DEBUG    | [Wine] Classical NN (16, 16) summary={'accuracy': '0.972 ± 0.0251', 'balanced_accuracy': '0.9745 ± 0.0223', 'f1_macro': '0.9717 ± 0.025', 'precision_macro': '0.9722 ± 0.0256', 'recall_macro': '0.9745 ± 0.0223', 'roc_auc_ovr': '1.0 ± 0.0', 'aupr_macro': '1.0 ± 0.0'}
+2026-07-19 16:58:20 | INFO     | [Wine] QNN Angle (No In-Model Standardize) started
+2026-07-19 16:58:20 | INFO     | [Wine] QNN Angle (No In-Model Standardize) | Fold 1/6 started
+2026-07-19 16:58:20 | DEBUG    | [Wine] QNN Angle (No In-Model Standardize) | Fold 1/6 PCA applied with max_features=8
+2026-07-19 16:58:20 | INFO     | [Wine] QNN Angle (No In-Model Standardize) | Fold 1/6 Optuna started (trials=20)
+2026-07-19 16:59:19 | INFO     | [Wine] QNN Angle (No In-Model Standardize) | Fold 1/6 Optuna finished | best_value=0.786111 | best_params={'learning_rate': 0.003314806139878277}
+2026-07-19 16:59:23 | INFO     | [Wine] QNN Angle (No In-Model Standardize) | Fold 1/6 finished
+2026-07-19 16:59:23 | DEBUG    | [Wine] QNN Angle (No In-Model Standardize) | Fold 1/6 metrics={'accuracy': 0.43333333333333335, 'balanced_accuracy': np.float64(0.49444444444444446), 'f1_macro': np.float64(0.39105339105339104), 'precision_macro': np.float64(0.4444444444444444), 'recall_macro': np.float64(0.49444444444444446), 'roc_auc_ovr': np.float64(0.7183838383838385), 'aupr_macro': np.float64(0.5613839183692125)}
+2026-07-19 16:59:23 | INFO     | [Wine] QNN Angle (No In-Model Standardize) | Fold 2/6 started
+2026-07-19 16:59:23 | DEBUG    | [Wine] QNN Angle (No In-Model Standardize) | Fold 2/6 PCA applied with max_features=8
+2026-07-19 16:59:23 | INFO     | [Wine] QNN Angle (No In-Model Standardize) | Fold 2/6 Optuna started (trials=20)
+2026-07-19 17:00:23 | INFO     | [Wine] QNN Angle (No In-Model Standardize) | Fold 2/6 Optuna finished | best_value=0.877778 | best_params={'learning_rate': 0.013184532967432416}
+2026-07-19 17:00:27 | INFO     | [Wine] QNN Angle (No In-Model Standardize) | Fold 2/6 finished
+2026-07-19 17:00:27 | DEBUG    | [Wine] QNN Angle (No In-Model Standardize) | Fold 2/6 metrics={'accuracy': 0.7, 'balanced_accuracy': np.float64(0.7194444444444444), 'f1_macro': np.float64(0.7011695906432749), 'precision_macro': np.float64(0.7159090909090908), 'recall_macro': np.float64(0.7194444444444444), 'roc_auc_ovr': np.float64(0.8537654320987654), 'aupr_macro': np.float64(0.7330279887142632)}
+2026-07-19 17:00:27 | INFO     | [Wine] QNN Angle (No In-Model Standardize) | Fold 3/6 started
+2026-07-19 17:00:27 | DEBUG    | [Wine] QNN Angle (No In-Model Standardize) | Fold 3/6 PCA applied with max_features=8
+2026-07-19 17:00:27 | INFO     | [Wine] QNN Angle (No In-Model Standardize) | Fold 3/6 Optuna started (trials=20)
+2026-07-19 17:01:28 | INFO     | [Wine] QNN Angle (No In-Model Standardize) | Fold 3/6 Optuna finished | best_value=0.736111 | best_params={'learning_rate': 0.030163827770182033}
+2026-07-19 17:01:32 | INFO     | [Wine] QNN Angle (No In-Model Standardize) | Fold 3/6 finished
+2026-07-19 17:01:32 | DEBUG    | [Wine] QNN Angle (No In-Model Standardize) | Fold 3/6 metrics={'accuracy': 0.6333333333333333, 'balanced_accuracy': np.float64(0.6527777777777778), 'f1_macro': np.float64(0.63231031543052), 'precision_macro': np.float64(0.6853174603174604), 'recall_macro': np.float64(0.6527777777777778), 'roc_auc_ovr': np.float64(0.8277861952861953), 'aupr_macro': np.float64(0.7015832152596859)}
+2026-07-19 17:01:32 | INFO     | [Wine] QNN Angle (No In-Model Standardize) | Fold 4/6 started
+2026-07-19 17:01:32 | DEBUG    | [Wine] QNN Angle (No In-Model Standardize) | Fold 4/6 PCA applied with max_features=8
+2026-07-19 17:01:32 | INFO     | [Wine] QNN Angle (No In-Model Standardize) | Fold 4/6 Optuna started (trials=20)
+2026-07-19 17:02:33 | INFO     | [Wine] QNN Angle (No In-Model Standardize) | Fold 4/6 Optuna finished | best_value=0.869444 | best_params={'learning_rate': 0.2620406243176181}
+2026-07-19 17:02:36 | INFO     | [Wine] QNN Angle (No In-Model Standardize) | Fold 4/6 finished
+2026-07-19 17:02:36 | DEBUG    | [Wine] QNN Angle (No In-Model Standardize) | Fold 4/6 metrics={'accuracy': 0.5666666666666667, 'balanced_accuracy': np.float64(0.5694444444444445), 'f1_macro': np.float64(0.57003367003367), 'precision_macro': np.float64(0.6190476190476191), 'recall_macro': np.float64(0.5694444444444445), 'roc_auc_ovr': np.float64(0.8241610549943883), 'aupr_macro': np.float64(0.7112358478080227)}
+2026-07-19 17:02:36 | INFO     | [Wine] QNN Angle (No In-Model Standardize) | Fold 5/6 started
+2026-07-19 17:02:36 | DEBUG    | [Wine] QNN Angle (No In-Model Standardize) | Fold 5/6 PCA applied with max_features=8
+2026-07-19 17:02:36 | INFO     | [Wine] QNN Angle (No In-Model Standardize) | Fold 5/6 Optuna started (trials=20)
+2026-07-19 17:03:37 | INFO     | [Wine] QNN Angle (No In-Model Standardize) | Fold 5/6 Optuna finished | best_value=0.863889 | best_params={'learning_rate': 0.10149311315361362}
+2026-07-19 17:03:41 | INFO     | [Wine] QNN Angle (No In-Model Standardize) | Fold 5/6 finished
+2026-07-19 17:03:41 | DEBUG    | [Wine] QNN Angle (No In-Model Standardize) | Fold 5/6 metrics={'accuracy': 0.7241379310344828, 'balanced_accuracy': np.float64(0.7310606060606061), 'f1_macro': np.float64(0.7162072558491995), 'precision_macro': np.float64(0.7214285714285715), 'recall_macro': np.float64(0.7310606060606061), 'roc_auc_ovr': np.float64(0.925077213235108), 'aupr_macro': np.float64(0.881000541855805)}
+2026-07-19 17:03:41 | INFO     | [Wine] QNN Angle (No In-Model Standardize) | Fold 6/6 started
+2026-07-19 17:03:41 | DEBUG    | [Wine] QNN Angle (No In-Model Standardize) | Fold 6/6 PCA applied with max_features=8
+2026-07-19 17:03:41 | INFO     | [Wine] QNN Angle (No In-Model Standardize) | Fold 6/6 Optuna started (trials=20)
+2026-07-19 17:04:41 | INFO     | [Wine] QNN Angle (No In-Model Standardize) | Fold 6/6 Optuna finished | best_value=0.727778 | best_params={'learning_rate': 0.05430747756015679}
+2026-07-19 17:04:45 | INFO     | [Wine] QNN Angle (No In-Model Standardize) | Fold 6/6 finished
+2026-07-19 17:04:45 | DEBUG    | [Wine] QNN Angle (No In-Model Standardize) | Fold 6/6 metrics={'accuracy': 0.7931034482758621, 'balanced_accuracy': np.float64(0.7870370370370371), 'f1_macro': np.float64(0.7863636363636363), 'precision_macro': np.float64(0.7954545454545454), 'recall_macro': np.float64(0.7870370370370371), 'roc_auc_ovr': np.float64(0.9394179894179894), 'aupr_macro': np.float64(0.876271705876969)}
+2026-07-19 17:04:45 | INFO     | [Wine] QNN Angle (No In-Model Standardize) finished
+2026-07-19 17:04:45 | DEBUG    | [Wine] QNN Angle (No In-Model Standardize) summary={'accuracy': '0.6418 ± 0.1282', 'balanced_accuracy': '0.659 ± 0.1099', 'f1_macro': '0.6329 ± 0.1397', 'precision_macro': '0.6636 ± 0.1216', 'recall_macro': '0.659 ± 0.1099', 'roc_auc_ovr': '0.8481 ± 0.0801', 'aupr_macro': '0.7441 ± 0.1205'}
+2026-07-19 17:04:45 | INFO     | [Wine] QNN Amplitude Raw started
+2026-07-19 17:04:45 | INFO     | [Wine] QNN Amplitude Raw | Fold 1/6 started
+2026-07-19 17:04:45 | INFO     | [Wine] QNN Amplitude Raw | Fold 1/6 Optuna started (trials=20)
+2026-07-19 17:05:07 | INFO     | [Wine] QNN Amplitude Raw | Fold 1/6 Optuna finished | best_value=0.930556 | best_params={'learning_rate': 0.023284140188240963}
+2026-07-19 17:05:08 | INFO     | [Wine] QNN Amplitude Raw | Fold 1/6 finished
+2026-07-19 17:05:08 | DEBUG    | [Wine] QNN Amplitude Raw | Fold 1/6 metrics={'accuracy': 0.7666666666666667, 'balanced_accuracy': np.float64(0.7583333333333333), 'f1_macro': np.float64(0.760822510822511), 'precision_macro': np.float64(0.7777777777777778), 'recall_macro': np.float64(0.7583333333333333), 'roc_auc_ovr': np.float64(0.9047530864197532), 'aupr_macro': np.float64(0.8249097815764482)}
+2026-07-19 17:05:08 | INFO     | [Wine] QNN Amplitude Raw | Fold 2/6 started
+2026-07-19 17:05:08 | INFO     | [Wine] QNN Amplitude Raw | Fold 2/6 Optuna started (trials=20)
+2026-07-19 17:05:30 | INFO     | [Wine] QNN Amplitude Raw | Fold 2/6 Optuna finished | best_value=0.811111 | best_params={'learning_rate': 0.07658644027129165}
+2026-07-19 17:05:31 | INFO     | [Wine] QNN Amplitude Raw | Fold 2/6 finished
+2026-07-19 17:05:31 | DEBUG    | [Wine] QNN Amplitude Raw | Fold 2/6 metrics={'accuracy': 0.8, 'balanced_accuracy': np.float64(0.8083333333333332), 'f1_macro': np.float64(0.8065044858523119), 'precision_macro': np.float64(0.8068181818181818), 'recall_macro': np.float64(0.8083333333333332), 'roc_auc_ovr': np.float64(0.8763299663299663), 'aupr_macro': np.float64(0.8328113563167912)}
+2026-07-19 17:05:31 | INFO     | [Wine] QNN Amplitude Raw | Fold 3/6 started
+2026-07-19 17:05:31 | INFO     | [Wine] QNN Amplitude Raw | Fold 3/6 Optuna started (trials=20)
+2026-07-19 17:05:52 | INFO     | [Wine] QNN Amplitude Raw | Fold 3/6 Optuna finished | best_value=0.788889 | best_params={'learning_rate': 0.018079889818681565}
+2026-07-19 17:05:54 | INFO     | [Wine] QNN Amplitude Raw | Fold 3/6 finished
+2026-07-19 17:05:54 | DEBUG    | [Wine] QNN Amplitude Raw | Fold 3/6 metrics={'accuracy': 0.7666666666666667, 'balanced_accuracy': np.float64(0.7805555555555556), 'f1_macro': np.float64(0.7662489557226398), 'precision_macro': np.float64(0.7750841750841752), 'recall_macro': np.float64(0.7805555555555556), 'roc_auc_ovr': np.float64(0.9349494949494949), 'aupr_macro': np.float64(0.9107771164021164)}
+2026-07-19 17:05:54 | INFO     | [Wine] QNN Amplitude Raw | Fold 4/6 started
+2026-07-19 17:05:54 | INFO     | [Wine] QNN Amplitude Raw | Fold 4/6 Optuna started (trials=20)
+2026-07-19 17:06:15 | INFO     | [Wine] QNN Amplitude Raw | Fold 4/6 Optuna finished | best_value=0.911111 | best_params={'learning_rate': 0.02235732475778982}
+2026-07-19 17:06:17 | INFO     | [Wine] QNN Amplitude Raw | Fold 4/6 finished
+2026-07-19 17:06:17 | DEBUG    | [Wine] QNN Amplitude Raw | Fold 4/6 metrics={'accuracy': 0.8333333333333334, 'balanced_accuracy': np.float64(0.8472222222222222), 'f1_macro': np.float64(0.8315083609201256), 'precision_macro': np.float64(0.8333333333333334), 'recall_macro': np.float64(0.8472222222222222), 'roc_auc_ovr': np.float64(0.9306032547699216), 'aupr_macro': np.float64(0.8776902726902728)}
+2026-07-19 17:06:17 | INFO     | [Wine] QNN Amplitude Raw | Fold 5/6 started
+2026-07-19 17:06:17 | INFO     | [Wine] QNN Amplitude Raw | Fold 5/6 Optuna started (trials=20)
+2026-07-19 17:06:38 | INFO     | [Wine] QNN Amplitude Raw | Fold 5/6 Optuna finished | best_value=0.863889 | best_params={'learning_rate': 0.0035280939889475657}
+2026-07-19 17:06:40 | INFO     | [Wine] QNN Amplitude Raw | Fold 5/6 finished
+2026-07-19 17:06:40 | DEBUG    | [Wine] QNN Amplitude Raw | Fold 5/6 metrics={'accuracy': 0.6896551724137931, 'balanced_accuracy': np.float64(0.6871212121212121), 'f1_macro': np.float64(0.6883116883116882), 'precision_macro': np.float64(0.6926406926406927), 'recall_macro': np.float64(0.6871212121212121), 'roc_auc_ovr': np.float64(0.8790150882256146), 'aupr_macro': np.float64(0.7713489544633466)}
+2026-07-19 17:06:40 | INFO     | [Wine] QNN Amplitude Raw | Fold 6/6 started
+2026-07-19 17:06:40 | INFO     | [Wine] QNN Amplitude Raw | Fold 6/6 Optuna started (trials=20)
+2026-07-19 17:07:01 | INFO     | [Wine] QNN Amplitude Raw | Fold 6/6 Optuna finished | best_value=0.827778 | best_params={'learning_rate': 0.17290938330372319}
+2026-07-19 17:07:03 | INFO     | [Wine] QNN Amplitude Raw | Fold 6/6 finished
+2026-07-19 17:07:03 | DEBUG    | [Wine] QNN Amplitude Raw | Fold 6/6 metrics={'accuracy': 0.8620689655172413, 'balanced_accuracy': np.float64(0.875), 'f1_macro': np.float64(0.863026550333052), 'precision_macro': np.float64(0.8592592592592593), 'recall_macro': np.float64(0.875), 'roc_auc_ovr': np.float64(0.9624260815437286), 'aupr_macro': np.float64(0.9446610873694209)}
+2026-07-19 17:07:03 | INFO     | [Wine] QNN Amplitude Raw finished
+2026-07-19 17:07:03 | DEBUG    | [Wine] QNN Amplitude Raw summary={'accuracy': '0.7864 ± 0.0604', 'balanced_accuracy': '0.7928 ± 0.067', 'f1_macro': '0.7861 ± 0.0616', 'precision_macro': '0.7908 ± 0.058', 'recall_macro': '0.7928 ± 0.067', 'roc_auc_ovr': '0.9147 ± 0.034', 'aupr_macro': '0.8604 ± 0.0631'}
+2026-07-19 17:07:03 | INFO     | [Wine] QNN Amplitude + RadialToLinear started
+2026-07-19 17:07:03 | INFO     | [Wine] QNN Amplitude + RadialToLinear | Fold 1/6 started
+2026-07-19 17:07:03 | INFO     | [Wine] QNN Amplitude + RadialToLinear | Fold 1/6 Optuna started (trials=20)
+2026-07-19 17:07:34 | INFO     | [Wine] QNN Amplitude + RadialToLinear | Fold 1/6 Optuna finished | best_value=1.000000 | best_params={'learning_rate': 0.256783751495675}
+2026-07-19 17:07:37 | INFO     | [Wine] QNN Amplitude + RadialToLinear | Fold 1/6 finished
+2026-07-19 17:07:37 | DEBUG    | [Wine] QNN Amplitude + RadialToLinear | Fold 1/6 metrics={'accuracy': 0.9, 'balanced_accuracy': np.float64(0.9111111111111111), 'f1_macro': np.float64(0.9035805626598465), 'precision_macro': np.float64(0.8993265993265993), 'recall_macro': np.float64(0.9111111111111111), 'roc_auc_ovr': np.float64(0.9827777777777778), 'aupr_macro': np.float64(0.9668937389770722)}
+2026-07-19 17:07:37 | INFO     | [Wine] QNN Amplitude + RadialToLinear | Fold 2/6 started
+2026-07-19 17:07:37 | INFO     | [Wine] QNN Amplitude + RadialToLinear | Fold 2/6 Optuna started (trials=20)
+2026-07-19 17:08:08 | INFO     | [Wine] QNN Amplitude + RadialToLinear | Fold 2/6 Optuna finished | best_value=0.972222 | best_params={'learning_rate': 0.28580687868133353}
+2026-07-19 17:08:10 | INFO     | [Wine] QNN Amplitude + RadialToLinear | Fold 2/6 finished
+2026-07-19 17:08:10 | DEBUG    | [Wine] QNN Amplitude + RadialToLinear | Fold 2/6 metrics={'accuracy': 0.9666666666666667, 'balanced_accuracy': np.float64(0.9722222222222222), 'f1_macro': np.float64(0.9658994032395567), 'precision_macro': np.float64(0.9629629629629629), 'recall_macro': np.float64(0.9722222222222222), 'roc_auc_ovr': np.float64(0.9835157126823794), 'aupr_macro': np.float64(0.9739757379560011)}
+2026-07-19 17:08:10 | INFO     | [Wine] QNN Amplitude + RadialToLinear | Fold 3/6 started
+2026-07-19 17:08:10 | INFO     | [Wine] QNN Amplitude + RadialToLinear | Fold 3/6 Optuna started (trials=20)
+2026-07-19 17:08:42 | INFO     | [Wine] QNN Amplitude + RadialToLinear | Fold 3/6 Optuna finished | best_value=0.944444 | best_params={'learning_rate': 0.11270229472761589}
+2026-07-19 17:08:44 | INFO     | [Wine] QNN Amplitude + RadialToLinear | Fold 3/6 finished
+2026-07-19 17:08:44 | DEBUG    | [Wine] QNN Amplitude + RadialToLinear | Fold 3/6 metrics={'accuracy': 0.9666666666666667, 'balanced_accuracy': np.float64(0.9722222222222222), 'f1_macro': np.float64(0.9658994032395567), 'precision_macro': np.float64(0.9629629629629629), 'recall_macro': np.float64(0.9722222222222222), 'roc_auc_ovr': np.float64(0.9950196408529742), 'aupr_macro': np.float64(0.9914021164021164)}
+2026-07-19 17:08:44 | INFO     | [Wine] QNN Amplitude + RadialToLinear | Fold 4/6 started
+2026-07-19 17:08:44 | INFO     | [Wine] QNN Amplitude + RadialToLinear | Fold 4/6 Optuna started (trials=20)
+2026-07-19 17:09:16 | INFO     | [Wine] QNN Amplitude + RadialToLinear | Fold 4/6 Optuna finished | best_value=1.000000 | best_params={'learning_rate': 0.23775089082477557}
+2026-07-19 17:09:18 | INFO     | [Wine] QNN Amplitude + RadialToLinear | Fold 4/6 finished
+2026-07-19 17:09:18 | DEBUG    | [Wine] QNN Amplitude + RadialToLinear | Fold 4/6 metrics={'accuracy': 0.9, 'balanced_accuracy': np.float64(0.9027777777777778), 'f1_macro': np.float64(0.8989820565907523), 'precision_macro': np.float64(0.8977272727272728), 'recall_macro': np.float64(0.9027777777777778), 'roc_auc_ovr': np.float64(0.978989898989899), 'aupr_macro': np.float64(0.968425925925926)}
+2026-07-19 17:09:18 | INFO     | [Wine] QNN Amplitude + RadialToLinear | Fold 5/6 started
+2026-07-19 17:09:18 | INFO     | [Wine] QNN Amplitude + RadialToLinear | Fold 5/6 Optuna started (trials=20)
+2026-07-19 17:09:50 | INFO     | [Wine] QNN Amplitude + RadialToLinear | Fold 5/6 Optuna finished | best_value=1.000000 | best_params={'learning_rate': 0.18799299546403467}
+2026-07-19 17:09:52 | INFO     | [Wine] QNN Amplitude + RadialToLinear | Fold 5/6 finished
+2026-07-19 17:09:52 | DEBUG    | [Wine] QNN Amplitude + RadialToLinear | Fold 5/6 metrics={'accuracy': 0.9310344827586207, 'balanced_accuracy': np.float64(0.9363636363636364), 'f1_macro': np.float64(0.9363636363636364), 'precision_macro': np.float64(0.9363636363636364), 'recall_macro': np.float64(0.9363636363636364), 'roc_auc_ovr': np.float64(0.9779727095516569), 'aupr_macro': np.float64(0.9664802468278405)}
+2026-07-19 17:09:52 | INFO     | [Wine] QNN Amplitude + RadialToLinear | Fold 6/6 started
+2026-07-19 17:09:52 | INFO     | [Wine] QNN Amplitude + RadialToLinear | Fold 6/6 Optuna started (trials=20)
+2026-07-19 17:10:24 | INFO     | [Wine] QNN Amplitude + RadialToLinear | Fold 6/6 Optuna finished | best_value=1.000000 | best_params={'learning_rate': 0.28100960652953083}
+2026-07-19 17:10:26 | INFO     | [Wine] QNN Amplitude + RadialToLinear | Fold 6/6 finished
+2026-07-19 17:10:26 | DEBUG    | [Wine] QNN Amplitude + RadialToLinear | Fold 6/6 metrics={'accuracy': 0.9655172413793104, 'balanced_accuracy': np.float64(0.9722222222222222), 'f1_macro': np.float64(0.9658994032395567), 'precision_macro': np.float64(0.9629629629629629), 'recall_macro': np.float64(0.9722222222222222), 'roc_auc_ovr': np.float64(0.9813258636788048), 'aupr_macro': np.float64(0.9782572751322752)}
+2026-07-19 17:10:26 | INFO     | [Wine] QNN Amplitude + RadialToLinear finished
+2026-07-19 17:10:26 | DEBUG    | [Wine] QNN Amplitude + RadialToLinear summary={'accuracy': '0.9383 ± 0.0327', 'balanced_accuracy': '0.9445 ± 0.0323', 'f1_macro': '0.9394 ± 0.0317', 'precision_macro': '0.9371 ± 0.0316', 'recall_macro': '0.9445 ± 0.0323', 'roc_auc_ovr': '0.9833 ± 0.0061', 'aupr_macro': '0.9742 ± 0.0096'}
+2026-07-19 17:10:26 | INFO     | [Wine] Pairwise significance analysis completed
+2026-07-19 17:10:26 | DEBUG    | [Wine] Pairwise significance results=[{'model_a': 'Classical NN (16, 16)', 'model_b': 'QNN Angle (No In-Model Standardize)', 'acc_a': 0.9719101123595506, 'acc_b': 0.6404494382022472, 'acc_diff_a_minus_b': 0.3314606741573034, 'b_a_correct_b_wrong': 61, 'c_a_wrong_b_correct': 2, 'discordant': 63, 'p_value': 4.373671563806525e-16, 'p_value_holm': 2.624202938283915e-15, 'significant_0.05': True}, {'model_a': 'Classical NN (16, 16)', 'model_b': 'QNN Amplitude Raw', 'acc_a': 0.9719101123595506, 'acc_b': 0.7865168539325843, 'acc_diff_a_minus_b': 0.1853932584269663, 'b_a_correct_b_wrong': 35, 'c_a_wrong_b_correct': 2, 'discordant': 37, 'p_value': 1.0244548320770264e-08, 'p_value_holm': 4.0978193283081055e-08, 'significant_0.05': True}, {'model_a': 'Classical NN (16, 16)', 'model_b': 'QNN Amplitude + RadialToLinear', 'acc_a': 0.9719101123595506, 'acc_b': 0.9382022471910112, 'acc_diff_a_minus_b': 0.03370786516853941, 'b_a_correct_b_wrong': 10, 'c_a_wrong_b_correct': 4, 'discordant': 14, 'p_value': 0.1795654296875, 'p_value_holm': 0.1795654296875, 'significant_0.05': False}, {'model_a': 'QNN Angle (No In-Model Standardize)', 'model_b': 'QNN Amplitude Raw', 'acc_a': 0.6404494382022472, 'acc_b': 0.7865168539325843, 'acc_diff_a_minus_b': -0.1460674157303371, 'b_a_correct_b_wrong': 22, 'c_a_wrong_b_correct': 48, 'discordant': 70, 'p_value': 0.0025475648982539578, 'p_value_holm': 0.0050951297965079155, 'significant_0.05': True}, {'model_a': 'QNN Angle (No In-Model Standardize)', 'model_b': 'QNN Amplitude + RadialToLinear', 'acc_a': 0.6404494382022472, 'acc_b': 0.9382022471910112, 'acc_diff_a_minus_b': -0.297752808988764, 'b_a_correct_b_wrong': 4, 'c_a_wrong_b_correct': 57, 'discordant': 61, 'p_value': 4.85494457136415e-13, 'p_value_holm': 2.427472285682075e-12, 'significant_0.05': True}, {'model_a': 'QNN Amplitude Raw', 'model_b': 'QNN Amplitude + RadialToLinear', 'acc_a': 0.7865168539325843, 'acc_b': 0.9382022471910112, 'acc_diff_a_minus_b': -0.1516853932584269, 'b_a_correct_b_wrong': 3, 'c_a_wrong_b_correct': 30, 'discordant': 33, 'p_value': 1.4011748135089874e-06, 'p_value_holm': 4.203524440526962e-06, 'significant_0.05': True}]
+2026-07-19 17:10:26 | INFO     | Dataset finished: Wine
+2026-07-19 17:10:26 | INFO     | Dataset started: Digits
+2026-07-19 17:10:26 | INFO     | [Digits] Classical NN (16, 16) started
+2026-07-19 17:10:26 | INFO     | [Digits] Classical NN (16, 16) | Fold 1/6 started
+2026-07-19 17:10:26 | INFO     | [Digits] Classical NN (16, 16) | Fold 1/6 Optuna started (trials=20)
+2026-07-19 17:10:34 | INFO     | [Digits] Classical NN (16, 16) | Fold 1/6 Optuna finished | best_value=0.943411 | best_params={'lr': 0.024936331592002533, 'weight_decay': 3.1738969536217587e-06}
+2026-07-19 17:10:34 | INFO     | [Digits] Classical NN (16, 16) | Fold 1/6 finished
+2026-07-19 17:10:34 | DEBUG    | [Digits] Classical NN (16, 16) | Fold 1/6 metrics={'accuracy': 0.9233333333333333, 'balanced_accuracy': np.float64(0.9222988505747127), 'f1_macro': np.float64(0.9212241987209702), 'precision_macro': np.float64(0.9238169728161129), 'recall_macro': np.float64(0.9222988505747127), 'roc_auc_ovr': np.float64(0.9922854005551551), 'aupr_macro': np.float64(0.9724252411663329)}
+2026-07-19 17:10:34 | INFO     | [Digits] Classical NN (16, 16) | Fold 2/6 started
+2026-07-19 17:10:34 | INFO     | [Digits] Classical NN (16, 16) | Fold 2/6 Optuna started (trials=20)
+2026-07-19 17:10:42 | INFO     | [Digits] Classical NN (16, 16) | Fold 2/6 Optuna finished | best_value=0.966537 | best_params={'lr': 0.018588041900970898, 'weight_decay': 8.196875070228182e-06}
+2026-07-19 17:10:42 | INFO     | [Digits] Classical NN (16, 16) | Fold 2/6 finished
+2026-07-19 17:10:42 | DEBUG    | [Digits] Classical NN (16, 16) | Fold 2/6 metrics={'accuracy': 0.9166666666666666, 'balanced_accuracy': np.float64(0.9164293659621803), 'f1_macro': np.float64(0.9160413323641985), 'precision_macro': np.float64(0.9185927536497613), 'recall_macro': np.float64(0.9164293659621803), 'roc_auc_ovr': np.float64(0.9964627566388653), 'aupr_macro': np.float64(0.9759053125251578)}
+2026-07-19 17:10:42 | INFO     | [Digits] Classical NN (16, 16) | Fold 3/6 started
+2026-07-19 17:10:42 | INFO     | [Digits] Classical NN (16, 16) | Fold 3/6 Optuna started (trials=20)
+2026-07-19 17:10:50 | INFO     | [Digits] Classical NN (16, 16) | Fold 3/6 Optuna finished | best_value=0.972981 | best_params={'lr': 0.021116999489294453, 'weight_decay': 4.143480691764524e-06}
+2026-07-19 17:10:51 | INFO     | [Digits] Classical NN (16, 16) | Fold 3/6 finished
+2026-07-19 17:10:51 | DEBUG    | [Digits] Classical NN (16, 16) | Fold 3/6 metrics={'accuracy': 0.94, 'balanced_accuracy': np.float64(0.9396329254727475), 'f1_macro': np.float64(0.9387982156610303), 'precision_macro': np.float64(0.9408448865743082), 'recall_macro': np.float64(0.9396329254727475), 'roc_auc_ovr': np.float64(0.9972267832550692), 'aupr_macro': np.float64(0.982736812297774)}
+2026-07-19 17:10:51 | INFO     | [Digits] Classical NN (16, 16) | Fold 4/6 started
+2026-07-19 17:10:51 | INFO     | [Digits] Classical NN (16, 16) | Fold 4/6 Optuna started (trials=20)
+2026-07-19 17:10:58 | INFO     | [Digits] Classical NN (16, 16) | Fold 4/6 Optuna finished | best_value=0.953211 | best_params={'lr': 0.00909535541974493, 'weight_decay': 0.0005725146159724888}
+2026-07-19 17:10:59 | INFO     | [Digits] Classical NN (16, 16) | Fold 4/6 finished
+2026-07-19 17:10:59 | DEBUG    | [Digits] Classical NN (16, 16) | Fold 4/6 metrics={'accuracy': 0.9632107023411371, 'balanced_accuracy': np.float64(0.9631961438635521), 'f1_macro': np.float64(0.9629639737638017), 'precision_macro': np.float64(0.9636864674072683), 'recall_macro': np.float64(0.9631961438635521), 'roc_auc_ovr': np.float64(0.9987596491113898), 'aupr_macro': np.float64(0.994533798824426)}
+2026-07-19 17:10:59 | INFO     | [Digits] Classical NN (16, 16) | Fold 5/6 started
+2026-07-19 17:10:59 | INFO     | [Digits] Classical NN (16, 16) | Fold 5/6 Optuna started (trials=20)
+2026-07-19 17:11:06 | INFO     | [Digits] Classical NN (16, 16) | Fold 5/6 Optuna finished | best_value=0.956552 | best_params={'lr': 0.03919911115424952, 'weight_decay': 0.0001383427459303468}
+2026-07-19 17:11:07 | INFO     | [Digits] Classical NN (16, 16) | Fold 5/6 finished
+2026-07-19 17:11:07 | DEBUG    | [Digits] Classical NN (16, 16) | Fold 5/6 metrics={'accuracy': 0.9565217391304348, 'balanced_accuracy': np.float64(0.9566444197256212), 'f1_macro': np.float64(0.9570912494719449), 'precision_macro': np.float64(0.9588974130708001), 'recall_macro': np.float64(0.9566444197256212), 'roc_auc_ovr': np.float64(0.9982831413530547), 'aupr_macro': np.float64(0.9828502744503202)}
+2026-07-19 17:11:07 | INFO     | [Digits] Classical NN (16, 16) | Fold 6/6 started
+2026-07-19 17:11:07 | INFO     | [Digits] Classical NN (16, 16) | Fold 6/6 Optuna started (trials=20)
+2026-07-19 17:11:14 | INFO     | [Digits] Classical NN (16, 16) | Fold 6/6 Optuna finished | best_value=0.969993 | best_params={'lr': 0.005494921619363755, 'weight_decay': 0.0001221891042666603}
+2026-07-19 17:11:15 | INFO     | [Digits] Classical NN (16, 16) | Fold 6/6 finished
+2026-07-19 17:11:15 | DEBUG    | [Digits] Classical NN (16, 16) | Fold 6/6 metrics={'accuracy': 0.9531772575250836, 'balanced_accuracy': np.float64(0.9529810901001113), 'f1_macro': np.float64(0.9537339361284832), 'precision_macro': np.float64(0.9573139226365033), 'recall_macro': np.float64(0.9529810901001113), 'roc_auc_ovr': np.float64(0.9988031433987157), 'aupr_macro': np.float64(0.9903827848933153)}
+2026-07-19 17:11:15 | INFO     | [Digits] Classical NN (16, 16) finished
+2026-07-19 17:11:15 | DEBUG    | [Digits] Classical NN (16, 16) summary={'accuracy': '0.9422 ± 0.0189', 'balanced_accuracy': '0.9419 ± 0.0191', 'f1_macro': '0.9416 ± 0.0196', 'precision_macro': '0.9439 ± 0.0192', 'recall_macro': '0.9419 ± 0.0191', 'roc_auc_ovr': '0.997 ± 0.0025', 'aupr_macro': '0.9831 ± 0.0084'}
+2026-07-19 17:11:15 | INFO     | [Digits] QNN Angle (No In-Model Standardize) started
+2026-07-19 17:11:15 | INFO     | [Digits] QNN Angle (No In-Model Standardize) | Fold 1/6 started
+2026-07-19 17:11:15 | DEBUG    | [Digits] QNN Angle (No In-Model Standardize) | Fold 1/6 PCA applied with max_features=8
+2026-07-19 17:11:15 | INFO     | [Digits] QNN Angle (No In-Model Standardize) | Fold 1/6 Optuna started (trials=20)
+2026-07-19 17:40:34 | INFO     | [Digits] QNN Angle (No In-Model Standardize) | Fold 1/6 Optuna finished | best_value=0.334220 | best_params={'learning_rate': 0.028588570620630947}
+2026-07-19 17:42:24 | INFO     | [Digits] QNN Angle (No In-Model Standardize) | Fold 1/6 finished
+2026-07-19 17:42:24 | DEBUG    | [Digits] QNN Angle (No In-Model Standardize) | Fold 1/6 metrics={'accuracy': 0.20333333333333334, 'balanced_accuracy': np.float64(0.2032925472747497), 'f1_macro': np.float64(0.193325927606393), 'precision_macro': np.float64(0.3279194734804491), 'recall_macro': np.float64(0.2032925472747497), 'roc_auc_ovr': np.float64(0.7363092099386621), 'aupr_macro': np.float64(0.2872018435420175)}
+2026-07-19 17:42:24 | INFO     | [Digits] QNN Angle (No In-Model Standardize) | Fold 2/6 started
+2026-07-19 17:42:24 | DEBUG    | [Digits] QNN Angle (No In-Model Standardize) | Fold 2/6 PCA applied with max_features=8
+2026-07-19 17:42:24 | INFO     | [Digits] QNN Angle (No In-Model Standardize) | Fold 2/6 Optuna started (trials=20)
+2026-07-19 18:11:22 | INFO     | [Digits] QNN Angle (No In-Model Standardize) | Fold 2/6 Optuna finished | best_value=0.308680 | best_params={'learning_rate': 0.09866590252872764}
+2026-07-19 18:13:10 | INFO     | [Digits] QNN Angle (No In-Model Standardize) | Fold 2/6 finished
+2026-07-19 18:13:10 | DEBUG    | [Digits] QNN Angle (No In-Model Standardize) | Fold 2/6 metrics={'accuracy': 0.30666666666666664, 'balanced_accuracy': np.float64(0.30646644419725627), 'f1_macro': np.float64(0.2519495414804218), 'precision_macro': np.float64(0.27746364838045656), 'recall_macro': np.float64(0.30646644419725627), 'roc_auc_ovr': np.float64(0.7056636412710038), 'aupr_macro': np.float64(0.25444897149464957)}
+2026-07-19 18:13:10 | INFO     | [Digits] QNN Angle (No In-Model Standardize) | Fold 3/6 started
+2026-07-19 18:13:10 | DEBUG    | [Digits] QNN Angle (No In-Model Standardize) | Fold 3/6 PCA applied with max_features=8
+2026-07-19 18:13:10 | INFO     | [Digits] QNN Angle (No In-Model Standardize) | Fold 3/6 Optuna started (trials=20)
+2026-07-19 18:42:23 | INFO     | [Digits] QNN Angle (No In-Model Standardize) | Fold 3/6 Optuna finished | best_value=0.331854 | best_params={'learning_rate': 0.18319033753584033}
+2026-07-19 18:44:12 | INFO     | [Digits] QNN Angle (No In-Model Standardize) | Fold 3/6 finished
+2026-07-19 18:44:12 | DEBUG    | [Digits] QNN Angle (No In-Model Standardize) | Fold 3/6 metrics={'accuracy': 0.22333333333333333, 'balanced_accuracy': np.float64(0.22270300333704118), 'f1_macro': np.float64(0.19822993899399374), 'precision_macro': np.float64(0.21525520025520026), 'recall_macro': np.float64(0.22270300333704118), 'roc_auc_ovr': np.float64(0.6987254056250813), 'aupr_macro': np.float64(0.24828183386253427)}
+2026-07-19 18:44:12 | INFO     | [Digits] QNN Angle (No In-Model Standardize) | Fold 4/6 started
+2026-07-19 18:44:12 | DEBUG    | [Digits] QNN Angle (No In-Model Standardize) | Fold 4/6 PCA applied with max_features=8
+2026-07-19 18:44:12 | INFO     | [Digits] QNN Angle (No In-Model Standardize) | Fold 4/6 Optuna started (trials=20)
+2026-07-19 19:13:11 | INFO     | [Digits] QNN Angle (No In-Model Standardize) | Fold 4/6 Optuna finished | best_value=0.284950 | best_params={'learning_rate': 0.014519273513959225}
+2026-07-19 19:15:00 | INFO     | [Digits] QNN Angle (No In-Model Standardize) | Fold 4/6 finished
+2026-07-19 19:15:00 | DEBUG    | [Digits] QNN Angle (No In-Model Standardize) | Fold 4/6 metrics={'accuracy': 0.19732441471571907, 'balanced_accuracy': np.float64(0.19500556173526143), 'f1_macro': np.float64(0.18200678904423548), 'precision_macro': np.float64(0.20059191188602954), 'recall_macro': np.float64(0.19500556173526143), 'roc_auc_ovr': np.float64(0.6976964526819767), 'aupr_macro': np.float64(0.23288765616063034)}
+2026-07-19 19:15:00 | INFO     | [Digits] QNN Angle (No In-Model Standardize) | Fold 5/6 started
+2026-07-19 19:15:00 | DEBUG    | [Digits] QNN Angle (No In-Model Standardize) | Fold 5/6 PCA applied with max_features=8
+2026-07-19 19:15:00 | INFO     | [Digits] QNN Angle (No In-Model Standardize) | Fold 5/6 Optuna started (trials=20)
+2026-07-19 19:44:25 | INFO     | [Digits] QNN Angle (No In-Model Standardize) | Fold 5/6 Optuna finished | best_value=0.300482 | best_params={'learning_rate': 0.05011614848745392}
+2026-07-19 19:46:13 | INFO     | [Digits] QNN Angle (No In-Model Standardize) | Fold 5/6 finished
+2026-07-19 19:46:13 | DEBUG    | [Digits] QNN Angle (No In-Model Standardize) | Fold 5/6 metrics={'accuracy': 0.2809364548494983, 'balanced_accuracy': np.float64(0.2837004078605858), 'f1_macro': np.float64(0.24864037490682542), 'precision_macro': np.float64(0.24044508174794346), 'recall_macro': np.float64(0.2837004078605858), 'roc_auc_ovr': np.float64(0.7227064743112558), 'aupr_macro': np.float64(0.2955770319832739)}
+2026-07-19 19:46:13 | INFO     | [Digits] QNN Angle (No In-Model Standardize) | Fold 6/6 started
+2026-07-19 19:46:13 | DEBUG    | [Digits] QNN Angle (No In-Model Standardize) | Fold 6/6 PCA applied with max_features=8
+2026-07-19 19:46:13 | INFO     | [Digits] QNN Angle (No In-Model Standardize) | Fold 6/6 Optuna started (trials=20)
+2026-07-19 20:15:07 | INFO     | [Digits] QNN Angle (No In-Model Standardize) | Fold 6/6 Optuna finished | best_value=0.314490 | best_params={'learning_rate': 0.006737273761057748}
+2026-07-19 20:17:02 | INFO     | [Digits] QNN Angle (No In-Model Standardize) | Fold 6/6 finished
+2026-07-19 20:17:02 | DEBUG    | [Digits] QNN Angle (No In-Model Standardize) | Fold 6/6 metrics={'accuracy': 0.22742474916387959, 'balanced_accuracy': np.float64(0.22920281794586578), 'f1_macro': np.float64(0.1923044962700135), 'precision_macro': np.float64(0.1899572164566029), 'recall_macro': np.float64(0.22920281794586578), 'roc_auc_ovr': np.float64(0.7175245272055284), 'aupr_macro': np.float64(0.27820366579953343)}
+2026-07-19 20:17:02 | INFO     | [Digits] QNN Angle (No In-Model Standardize) finished
+2026-07-19 20:17:02 | DEBUG    | [Digits] QNN Angle (No In-Model Standardize) summary={'accuracy': '0.2398 ± 0.0441', 'balanced_accuracy': '0.2401 ± 0.045', 'f1_macro': '0.2111 ± 0.0309', 'precision_macro': '0.2419 ± 0.0525', 'recall_macro': '0.2401 ± 0.045', 'roc_auc_ovr': '0.7131 ± 0.0152', 'aupr_macro': '0.2661 ± 0.0246'}
+2026-07-19 20:17:02 | INFO     | [Digits] QNN Amplitude Raw started
+2026-07-19 20:17:02 | INFO     | [Digits] QNN Amplitude Raw | Fold 1/6 started
+2026-07-19 20:17:02 | INFO     | [Digits] QNN Amplitude Raw | Fold 1/6 Optuna started (trials=20)
+2026-07-19 20:44:52 | INFO     | [Digits] QNN Amplitude Raw | Fold 1/6 Optuna finished | best_value=0.356711 | best_params={'learning_rate': 0.018399597236199116}
+2026-07-19 20:46:34 | INFO     | [Digits] QNN Amplitude Raw | Fold 1/6 finished
+2026-07-19 20:46:34 | DEBUG    | [Digits] QNN Amplitude Raw | Fold 1/6 metrics={'accuracy': 0.21, 'balanced_accuracy': np.float64(0.2105747126436782), 'f1_macro': np.float64(0.1746572692211894), 'precision_macro': np.float64(0.17484394796393193), 'recall_macro': np.float64(0.2105747126436782), 'roc_auc_ovr': np.float64(0.7428924799227368), 'aupr_macro': np.float64(0.29746419098477395)}
+2026-07-19 20:46:34 | INFO     | [Digits] QNN Amplitude Raw | Fold 2/6 started
+2026-07-19 20:46:34 | INFO     | [Digits] QNN Amplitude Raw | Fold 2/6 Optuna started (trials=20)
+2026-07-19 21:14:01 | INFO     | [Digits] QNN Amplitude Raw | Fold 2/6 Optuna finished | best_value=0.337230 | best_params={'learning_rate': 0.024023196874723686}
+2026-07-19 21:15:49 | INFO     | [Digits] QNN Amplitude Raw | Fold 2/6 finished
+2026-07-19 21:15:49 | DEBUG    | [Digits] QNN Amplitude Raw | Fold 2/6 metrics={'accuracy': 0.3466666666666667, 'balanced_accuracy': np.float64(0.3458286985539488), 'f1_macro': np.float64(0.30837349942487247), 'precision_macro': np.float64(0.28688144153982664), 'recall_macro': np.float64(0.3458286985539488), 'roc_auc_ovr': np.float64(0.7969892723906069), 'aupr_macro': np.float64(0.37655174982506057)}
+2026-07-19 21:15:49 | INFO     | [Digits] QNN Amplitude Raw | Fold 3/6 started
+2026-07-19 21:15:49 | INFO     | [Digits] QNN Amplitude Raw | Fold 3/6 Optuna started (trials=20)
+2026-07-19 21:44:17 | INFO     | [Digits] QNN Amplitude Raw | Fold 3/6 Optuna finished | best_value=0.393448 | best_params={'learning_rate': 0.027533305894550626}
+2026-07-19 21:46:09 | INFO     | [Digits] QNN Amplitude Raw | Fold 3/6 finished
+2026-07-19 21:46:09 | DEBUG    | [Digits] QNN Amplitude Raw | Fold 3/6 metrics={'accuracy': 0.31666666666666665, 'balanced_accuracy': np.float64(0.315706340378198), 'f1_macro': np.float64(0.24456076024619616), 'precision_macro': np.float64(0.2605419084126305), 'recall_macro': np.float64(0.315706340378198), 'roc_auc_ovr': np.float64(0.7552800652125339), 'aupr_macro': np.float64(0.29462499479933335)}
+2026-07-19 21:46:09 | INFO     | [Digits] QNN Amplitude Raw | Fold 4/6 started
+2026-07-19 21:46:09 | INFO     | [Digits] QNN Amplitude Raw | Fold 4/6 Optuna started (trials=20)
+2026-07-19 22:14:40 | INFO     | [Digits] QNN Amplitude Raw | Fold 4/6 Optuna finished | best_value=0.370000 | best_params={'learning_rate': 0.00457040068862855}
+2026-07-19 22:16:26 | INFO     | [Digits] QNN Amplitude Raw | Fold 4/6 finished
+2026-07-19 22:16:26 | DEBUG    | [Digits] QNN Amplitude Raw | Fold 4/6 metrics={'accuracy': 0.27424749163879597, 'balanced_accuracy': np.float64(0.2740155728587319), 'f1_macro': np.float64(0.2143075377249962), 'precision_macro': np.float64(0.23429292929292928), 'recall_macro': np.float64(0.2740155728587319), 'roc_auc_ovr': np.float64(0.7544512199251829), 'aupr_macro': np.float64(0.3161164650191158)}
+2026-07-19 22:16:26 | INFO     | [Digits] QNN Amplitude Raw | Fold 5/6 started
+2026-07-19 22:16:26 | INFO     | [Digits] QNN Amplitude Raw | Fold 5/6 Optuna started (trials=20)
+2026-07-19 22:44:57 | INFO     | [Digits] QNN Amplitude Raw | Fold 5/6 Optuna finished | best_value=0.370412 | best_params={'learning_rate': 0.008715810666135311}
+2026-07-19 22:46:40 | INFO     | [Digits] QNN Amplitude Raw | Fold 5/6 finished
+2026-07-19 22:46:40 | DEBUG    | [Digits] QNN Amplitude Raw | Fold 5/6 metrics={'accuracy': 0.3110367892976589, 'balanced_accuracy': np.float64(0.30826844642195034), 'f1_macro': np.float64(0.264883149608078), 'precision_macro': np.float64(0.24570459221933477), 'recall_macro': np.float64(0.30826844642195034), 'roc_auc_ovr': np.float64(0.7611110845151401), 'aupr_macro': np.float64(0.3255592782392814)}
+2026-07-19 22:46:40 | INFO     | [Digits] QNN Amplitude Raw | Fold 6/6 started
+2026-07-19 22:46:40 | INFO     | [Digits] QNN Amplitude Raw | Fold 6/6 Optuna started (trials=20)
+2026-07-19 23:13:39 | INFO     | [Digits] QNN Amplitude Raw | Fold 6/6 Optuna finished | best_value=0.382332 | best_params={'learning_rate': 0.026041592126100622}
+2026-07-19 23:15:23 | INFO     | [Digits] QNN Amplitude Raw | Fold 6/6 finished
+2026-07-19 23:15:23 | DEBUG    | [Digits] QNN Amplitude Raw | Fold 6/6 metrics={'accuracy': 0.22073578595317725, 'balanced_accuracy': np.float64(0.2224137931034483), 'f1_macro': np.float64(0.14570979912477539), 'precision_macro': np.float64(0.2065119707197256), 'recall_macro': np.float64(0.2224137931034483), 'roc_auc_ovr': np.float64(0.7266517703970907), 'aupr_macro': np.float64(0.2861109032371788)}
+2026-07-19 23:15:23 | INFO     | [Digits] QNN Amplitude Raw finished
+2026-07-19 23:15:23 | DEBUG    | [Digits] QNN Amplitude Raw summary={'accuracy': '0.2799 ± 0.0551', 'balanced_accuracy': '0.2795 ± 0.054', 'f1_macro': '0.2254 ± 0.0598', 'precision_macro': '0.2348 ± 0.0397', 'recall_macro': '0.2795 ± 0.054', 'roc_auc_ovr': '0.7562 ± 0.0234', 'aupr_macro': '0.3161 ± 0.033'}
+2026-07-19 23:15:23 | INFO     | [Digits] QNN Amplitude + RadialToLinear started
+2026-07-19 23:15:23 | INFO     | [Digits] QNN Amplitude + RadialToLinear | Fold 1/6 started
+2026-07-19 23:15:23 | INFO     | [Digits] QNN Amplitude + RadialToLinear | Fold 1/6 Optuna started (trials=20)
+2026-07-19 23:42:41 | INFO     | [Digits] QNN Amplitude + RadialToLinear | Fold 1/6 Optuna finished | best_value=0.401720 | best_params={'learning_rate': 0.10468002563145248}
+2026-07-19 23:44:21 | INFO     | [Digits] QNN Amplitude + RadialToLinear | Fold 1/6 finished
+2026-07-19 23:44:21 | DEBUG    | [Digits] QNN Amplitude + RadialToLinear | Fold 1/6 metrics={'accuracy': 0.3566666666666667, 'balanced_accuracy': np.float64(0.3583908045977011), 'f1_macro': np.float64(0.2889364593156063), 'precision_macro': np.float64(0.2497069255902895), 'recall_macro': np.float64(0.3583908045977011), 'roc_auc_ovr': np.float64(0.7398922170468204), 'aupr_macro': np.float64(0.3352671023334399)}
+2026-07-19 23:44:21 | INFO     | [Digits] QNN Amplitude + RadialToLinear | Fold 2/6 started
+2026-07-19 23:44:21 | INFO     | [Digits] QNN Amplitude + RadialToLinear | Fold 2/6 Optuna started (trials=20)
+2026-07-20 00:11:44 | INFO     | [Digits] QNN Amplitude + RadialToLinear | Fold 2/6 Optuna finished | best_value=0.359336 | best_params={'learning_rate': 0.01452321757254063}
+2026-07-20 00:13:24 | INFO     | [Digits] QNN Amplitude + RadialToLinear | Fold 2/6 finished
+2026-07-20 00:13:24 | DEBUG    | [Digits] QNN Amplitude + RadialToLinear | Fold 2/6 metrics={'accuracy': 0.32666666666666666, 'balanced_accuracy': np.float64(0.3264812754912866), 'f1_macro': np.float64(0.27549785337083443), 'precision_macro': np.float64(0.35697791007001534), 'recall_macro': np.float64(0.3264812754912866), 'roc_auc_ovr': np.float64(0.7669794606924929), 'aupr_macro': np.float64(0.36093062653945707)}
+2026-07-20 00:13:24 | INFO     | [Digits] QNN Amplitude + RadialToLinear | Fold 3/6 started
+2026-07-20 00:13:24 | INFO     | [Digits] QNN Amplitude + RadialToLinear | Fold 3/6 Optuna started (trials=20)
+2026-07-20 00:40:11 | INFO     | [Digits] QNN Amplitude + RadialToLinear | Fold 3/6 Optuna finished | best_value=0.355321 | best_params={'learning_rate': 0.022698165925678904}
+2026-07-20 00:41:53 | INFO     | [Digits] QNN Amplitude + RadialToLinear | Fold 3/6 finished
+2026-07-20 00:41:53 | DEBUG    | [Digits] QNN Amplitude + RadialToLinear | Fold 3/6 metrics={'accuracy': 0.32, 'balanced_accuracy': np.float64(0.31861698183166487), 'f1_macro': np.float64(0.2930327720065956), 'precision_macro': np.float64(0.3410326223484118), 'recall_macro': np.float64(0.31861698183166487), 'roc_auc_ovr': np.float64(0.7706266537527298), 'aupr_macro': np.float64(0.3748159470107)}
+2026-07-20 00:41:53 | INFO     | [Digits] QNN Amplitude + RadialToLinear | Fold 4/6 started
+2026-07-20 00:41:53 | INFO     | [Digits] QNN Amplitude + RadialToLinear | Fold 4/6 Optuna started (trials=20)
+2026-07-20 01:08:46 | INFO     | [Digits] QNN Amplitude + RadialToLinear | Fold 4/6 Optuna finished | best_value=0.371505 | best_params={'learning_rate': 0.06526003534438514}
+2026-07-20 01:10:24 | INFO     | [Digits] QNN Amplitude + RadialToLinear | Fold 4/6 finished
+2026-07-20 01:10:24 | DEBUG    | [Digits] QNN Amplitude + RadialToLinear | Fold 4/6 metrics={'accuracy': 0.33444816053511706, 'balanced_accuracy': np.float64(0.33424175009269563), 'f1_macro': np.float64(0.3082239494692886), 'precision_macro': np.float64(0.3503840275745456), 'recall_macro': np.float64(0.33424175009269563), 'roc_auc_ovr': np.float64(0.7751830258026475), 'aupr_macro': np.float64(0.31298456183919965)}
+2026-07-20 01:10:24 | INFO     | [Digits] QNN Amplitude + RadialToLinear | Fold 5/6 started
+2026-07-20 01:10:24 | INFO     | [Digits] QNN Amplitude + RadialToLinear | Fold 5/6 Optuna started (trials=20)
+2026-07-20 01:37:34 | INFO     | [Digits] QNN Amplitude + RadialToLinear | Fold 5/6 Optuna finished | best_value=0.345269 | best_params={'learning_rate': 0.011163993549268645}
+2026-07-20 01:39:14 | INFO     | [Digits] QNN Amplitude + RadialToLinear | Fold 5/6 finished
+2026-07-20 01:39:14 | DEBUG    | [Digits] QNN Amplitude + RadialToLinear | Fold 5/6 metrics={'accuracy': 0.2809364548494983, 'balanced_accuracy': np.float64(0.28137560252132), 'f1_macro': np.float64(0.18740041279669764), 'precision_macro': np.float64(0.15965112703064513), 'recall_macro': np.float64(0.28137560252132), 'roc_auc_ovr': np.float64(0.735749472322565), 'aupr_macro': np.float64(0.29390896020053897)}
+2026-07-20 01:39:14 | INFO     | [Digits] QNN Amplitude + RadialToLinear | Fold 6/6 started
+2026-07-20 01:39:14 | INFO     | [Digits] QNN Amplitude + RadialToLinear | Fold 6/6 Optuna started (trials=20)
+2026-07-20 02:05:56 | INFO     | [Digits] QNN Amplitude + RadialToLinear | Fold 6/6 Optuna finished | best_value=0.399047 | best_params={'learning_rate': 0.0391052251591369}
+2026-07-20 02:07:38 | INFO     | [Digits] QNN Amplitude + RadialToLinear | Fold 6/6 finished
+2026-07-20 02:07:38 | DEBUG    | [Digits] QNN Amplitude + RadialToLinear | Fold 6/6 metrics={'accuracy': 0.26421404682274247, 'balanced_accuracy': np.float64(0.26657026325546906), 'f1_macro': np.float64(0.22533656077515726), 'precision_macro': np.float64(0.24693583966124946), 'recall_macro': np.float64(0.26657026325546906), 'roc_auc_ovr': np.float64(0.6825192991485524), 'aupr_macro': np.float64(0.29067101470279316)}
+2026-07-20 02:07:38 | INFO     | [Digits] QNN Amplitude + RadialToLinear finished
+2026-07-20 02:07:38 | DEBUG    | [Digits] QNN Amplitude + RadialToLinear summary={'accuracy': '0.3138 ± 0.0347', 'balanced_accuracy': '0.3143 ± 0.0343', 'f1_macro': '0.2631 ± 0.0467', 'precision_macro': '0.2841 ± 0.0787', 'recall_macro': '0.3143 ± 0.0343', 'roc_auc_ovr': '0.7452 ± 0.0348', 'aupr_macro': '0.3281 ± 0.035'}
+2026-07-20 02:07:38 | INFO     | [Digits] Pairwise significance analysis completed
+2026-07-20 02:07:38 | DEBUG    | [Digits] Pairwise significance results=[{'model_a': 'Classical NN (16, 16)', 'model_b': 'QNN Angle (No In-Model Standardize)', 'acc_a': 0.9421257651641625, 'acc_b': 0.23984418475236505, 'acc_diff_a_minus_b': 0.7022815804117974, 'b_a_correct_b_wrong': 1270, 'c_a_wrong_b_correct': 8, 'discordant': 1278, 'p_value': 0.0, 'p_value_holm': 0.0, 'significant_0.05': True}, {'model_a': 'Classical NN (16, 16)', 'model_b': 'QNN Amplitude Raw', 'acc_a': 0.9421257651641625, 'acc_b': 0.27991096271563715, 'acc_diff_a_minus_b': 0.6622148024485253, 'b_a_correct_b_wrong': 1208, 'c_a_wrong_b_correct': 18, 'discordant': 1226, 'p_value': 0.0, 'p_value_holm': 0.0, 'significant_0.05': True}, {'model_a': 'Classical NN (16, 16)', 'model_b': 'QNN Amplitude + RadialToLinear', 'acc_a': 0.9421257651641625, 'acc_b': 0.31385642737896496, 'acc_diff_a_minus_b': 0.6282693377851976, 'b_a_correct_b_wrong': 1148, 'c_a_wrong_b_correct': 19, 'discordant': 1167, 'p_value': 0.0, 'p_value_holm': 0.0, 'significant_0.05': True}, {'model_a': 'QNN Angle (No In-Model Standardize)', 'model_b': 'QNN Amplitude Raw', 'acc_a': 0.23984418475236505, 'acc_b': 0.27991096271563715, 'acc_diff_a_minus_b': -0.0400667779632721, 'b_a_correct_b_wrong': 258, 'c_a_wrong_b_correct': 330, 'discordant': 588, 'p_value': 0.003377101992161518, 'p_value_holm': 0.006754203984323036, 'significant_0.05': True}, {'model_a': 'QNN Angle (No In-Model Standardize)', 'model_b': 'QNN Amplitude + RadialToLinear', 'acc_a': 0.23984418475236505, 'acc_b': 0.31385642737896496, 'acc_diff_a_minus_b': -0.07401224262659992, 'b_a_correct_b_wrong': 252, 'c_a_wrong_b_correct': 385, 'discordant': 637, 'p_value': 1.5346984051016774e-07, 'p_value_holm': 4.6040952153050323e-07, 'significant_0.05': True}, {'model_a': 'QNN Amplitude Raw', 'model_b': 'QNN Amplitude + RadialToLinear', 'acc_a': 0.27991096271563715, 'acc_b': 0.31385642737896496, 'acc_diff_a_minus_b': -0.03394546466332782, 'b_a_correct_b_wrong': 327, 'c_a_wrong_b_correct': 388, 'discordant': 715, 'p_value': 0.024772601431160876, 'p_value_holm': 0.024772601431160876, 'significant_0.05': True}]
+2026-07-20 02:07:38 | INFO     | Dataset finished: Digits
+2026-07-20 02:07:38 | INFO     | Dataset started: Adult
+2026-07-20 02:07:38 | INFO     | [Adult] Classical NN (16, 16) started
+2026-07-20 02:07:38 | INFO     | [Adult] Classical NN (16, 16) | Fold 1/6 started
+2026-07-20 02:07:38 | INFO     | [Adult] Classical NN (16, 16) | Fold 1/6 Optuna started (trials=20)
+2026-07-20 02:10:55 | INFO     | [Adult] Classical NN (16, 16) | Fold 1/6 Optuna finished | best_value=0.805693 | best_params={'lr': 0.037706474133300284, 'weight_decay': 0.00012301712307067884}
+2026-07-20 02:11:07 | INFO     | [Adult] Classical NN (16, 16) | Fold 1/6 finished
+2026-07-20 02:11:07 | DEBUG    | [Adult] Classical NN (16, 16) | Fold 1/6 metrics={'accuracy': 0.8465790443434468, 'balanced_accuracy': np.float64(0.7884958459756677), 'f1_macro': np.float64(0.7889530299953103), 'precision_macro': np.float64(0.7894143265768466), 'recall_macro': np.float64(0.7884958459756677), 'roc_auc': np.float64(0.905239687386335), 'aupr': np.float64(0.7760053132075787)}
+2026-07-20 02:11:07 | INFO     | [Adult] Classical NN (16, 16) | Fold 2/6 started
+2026-07-20 02:11:07 | INFO     | [Adult] Classical NN (16, 16) | Fold 2/6 Optuna started (trials=20)
+2026-07-20 02:14:22 | INFO     | [Adult] Classical NN (16, 16) | Fold 2/6 Optuna finished | best_value=0.782740 | best_params={'lr': 0.004947409105708343, 'weight_decay': 2.6084630316140394e-05}
+2026-07-20 02:14:34 | INFO     | [Adult] Classical NN (16, 16) | Fold 2/6 finished
+2026-07-20 02:14:34 | DEBUG    | [Adult] Classical NN (16, 16) | Fold 2/6 metrics={'accuracy': 0.8571428571428571, 'balanced_accuracy': np.float64(0.7606036042547872), 'f1_macro': np.float64(0.7840636990424594), 'precision_macro': np.float64(0.8228304246981184), 'recall_macro': np.float64(0.7606036042547872), 'roc_auc': np.float64(0.9121626606312816), 'aupr': np.float64(0.7823550924822078)}
+2026-07-20 02:14:34 | INFO     | [Adult] Classical NN (16, 16) | Fold 3/6 started
+2026-07-20 02:14:34 | INFO     | [Adult] Classical NN (16, 16) | Fold 3/6 Optuna started (trials=20)
+2026-07-20 02:17:52 | INFO     | [Adult] Classical NN (16, 16) | Fold 3/6 Optuna finished | best_value=0.784182 | best_params={'lr': 0.00022228178565372058, 'weight_decay': 2.918479589176526e-07}
+2026-07-20 02:18:04 | INFO     | [Adult] Classical NN (16, 16) | Fold 3/6 finished
+2026-07-20 02:18:04 | DEBUG    | [Adult] Classical NN (16, 16) | Fold 3/6 metrics={'accuracy': 0.855036855036855, 'balanced_accuracy': np.float64(0.762115236721613), 'f1_macro': np.float64(0.7831832434316839), 'precision_macro': np.float64(0.8161812041319613), 'recall_macro': np.float64(0.762115236721613), 'roc_auc': np.float64(0.909377487762871), 'aupr': np.float64(0.7736929999823458)}
+2026-07-20 02:18:04 | INFO     | [Adult] Classical NN (16, 16) | Fold 4/6 started
+2026-07-20 02:18:05 | INFO     | [Adult] Classical NN (16, 16) | Fold 4/6 Optuna started (trials=20)
+2026-07-20 02:21:20 | INFO     | [Adult] Classical NN (16, 16) | Fold 4/6 Optuna finished | best_value=0.786102 | best_params={'lr': 0.00012318882889786366, 'weight_decay': 2.0029123739814408e-06}
+2026-07-20 02:21:32 | INFO     | [Adult] Classical NN (16, 16) | Fold 4/6 finished
+2026-07-20 02:21:32 | DEBUG    | [Adult] Classical NN (16, 16) | Fold 4/6 metrics={'accuracy': 0.8556511056511057, 'balanced_accuracy': np.float64(0.7788059641108087), 'f1_macro': np.float64(0.7919158395351202), 'precision_macro': np.float64(0.8089194210915074), 'recall_macro': np.float64(0.7788059641108087), 'roc_auc': np.float64(0.9121844142803325), 'aupr': np.float64(0.7778434834269146)}
+2026-07-20 02:21:32 | INFO     | [Adult] Classical NN (16, 16) | Fold 5/6 started
+2026-07-20 02:21:32 | INFO     | [Adult] Classical NN (16, 16) | Fold 5/6 Optuna started (trials=20)
+2026-07-20 02:24:46 | INFO     | [Adult] Classical NN (16, 16) | Fold 5/6 Optuna finished | best_value=0.796644 | best_params={'lr': 0.0179273397774875, 'weight_decay': 0.00015201331158926776}
+2026-07-20 02:24:59 | INFO     | [Adult] Classical NN (16, 16) | Fold 5/6 finished
+2026-07-20 02:24:59 | DEBUG    | [Adult] Classical NN (16, 16) | Fold 5/6 metrics={'accuracy': 0.8529484029484029, 'balanced_accuracy': np.float64(0.7765017058508297), 'f1_macro': np.float64(0.7886813833091306), 'precision_macro': np.float64(0.8042422737529865), 'recall_macro': np.float64(0.7765017058508297), 'roc_auc': np.float64(0.9091792367047101), 'aupr': np.float64(0.7732510198957822)}
+2026-07-20 02:24:59 | INFO     | [Adult] Classical NN (16, 16) | Fold 6/6 started
+2026-07-20 02:24:59 | INFO     | [Adult] Classical NN (16, 16) | Fold 6/6 Optuna started (trials=20)
+2026-07-20 02:28:14 | INFO     | [Adult] Classical NN (16, 16) | Fold 6/6 Optuna finished | best_value=0.784197 | best_params={'lr': 0.008854399759493847, 'weight_decay': 1.0715668935799036e-06}
+2026-07-20 02:28:26 | INFO     | [Adult] Classical NN (16, 16) | Fold 6/6 finished
+2026-07-20 02:28:26 | DEBUG    | [Adult] Classical NN (16, 16) | Fold 6/6 metrics={'accuracy': 0.856019656019656, 'balanced_accuracy': np.float64(0.7690205352073816), 'f1_macro': np.float64(0.7875105163593703), 'precision_macro': np.float64(0.8145866658910896), 'recall_macro': np.float64(0.7690205352073816), 'roc_auc': np.float64(0.913391550798805), 'aupr': np.float64(0.7833853643695302)}
+2026-07-20 02:28:26 | INFO     | [Adult] Classical NN (16, 16) finished
+2026-07-20 02:28:26 | DEBUG    | [Adult] Classical NN (16, 16) summary={'accuracy': '0.8539 ± 0.0038', 'balanced_accuracy': '0.7726 ± 0.0107', 'f1_macro': '0.7874 ± 0.0033', 'precision_macro': '0.8094 ± 0.0117', 'recall_macro': '0.7726 ± 0.0107', 'roc_auc': '0.9103 ± 0.003', 'aupr': '0.7778 ± 0.0043'}
+2026-07-20 02:28:26 | INFO     | [Adult] QNN Angle (No In-Model Standardize) started
+2026-07-20 02:28:26 | INFO     | [Adult] QNN Angle (No In-Model Standardize) | Fold 1/6 started
+2026-07-20 02:28:26 | DEBUG    | [Adult] QNN Angle (No In-Model Standardize) | Fold 1/6 PCA applied with max_features=8
+2026-07-20 02:28:26 | INFO     | [Adult] QNN Angle (No In-Model Standardize) | Fold 1/6 Optuna started (trials=20)
+2026-07-20 07:27:33 | INFO     | [Adult] QNN Angle (No In-Model Standardize) | Fold 1/6 Optuna finished | best_value=0.632707 | best_params={'learning_rate': 0.19112553441231928}
+2026-07-20 07:45:56 | INFO     | [Adult] QNN Angle (No In-Model Standardize) | Fold 1/6 finished
+2026-07-20 07:45:56 | DEBUG    | [Adult] QNN Angle (No In-Model Standardize) | Fold 1/6 metrics={'accuracy': 0.7355361749170863, 'balanced_accuracy': np.float64(0.5457308228041795), 'f1_macro': np.float64(0.5435228420322678), 'precision_macro': np.float64(0.5836007409423376), 'recall_macro': np.float64(0.5457308228041795), 'roc_auc': np.float64(0.653470990132265), 'aupr': np.float64(0.33919291273550545)}
+2026-07-20 07:45:56 | INFO     | [Adult] QNN Angle (No In-Model Standardize) | Fold 2/6 started
+2026-07-20 07:45:56 | DEBUG    | [Adult] QNN Angle (No In-Model Standardize) | Fold 2/6 PCA applied with max_features=8
+2026-07-20 07:45:56 | INFO     | [Adult] QNN Angle (No In-Model Standardize) | Fold 2/6 Optuna started (trials=20)
+2026-07-20 15:46:24 | INFO     | [Adult] QNN Angle (No In-Model Standardize) | Fold 2/6 Optuna finished | best_value=0.543363 | best_params={'learning_rate': 0.001282638511762584}
+2026-07-20 16:04:45 | INFO     | [Adult] QNN Angle (No In-Model Standardize) | Fold 2/6 finished
+2026-07-20 16:04:45 | DEBUG    | [Adult] QNN Angle (No In-Model Standardize) | Fold 2/6 metrics={'accuracy': 0.718953445522663, 'balanced_accuracy': np.float64(0.5135430195249256), 'f1_macro': np.float64(0.50003886610605), 'precision_macro': np.float64(0.5276356941209503), 'recall_macro': np.float64(0.5135430195249256), 'roc_auc': np.float64(0.6779304049647363), 'aupr': np.float64(0.32222626655718306)}
+2026-07-20 16:04:45 | INFO     | [Adult] QNN Angle (No In-Model Standardize) | Fold 3/6 started
+2026-07-20 16:04:46 | DEBUG    | [Adult] QNN Angle (No In-Model Standardize) | Fold 3/6 PCA applied with max_features=8
+2026-07-20 16:04:46 | INFO     | [Adult] QNN Angle (No In-Model Standardize) | Fold 3/6 Optuna started (trials=20)
+2026-07-20 22:48:22 | INFO     | [Adult] QNN Angle (No In-Model Standardize) | Fold 3/6 Optuna finished | best_value=0.576340 | best_params={'learning_rate': 0.037259620020371274}
+2026-07-20 23:07:35 | INFO     | [Adult] QNN Angle (No In-Model Standardize) | Fold 3/6 finished
+2026-07-20 23:07:35 | DEBUG    | [Adult] QNN Angle (No In-Model Standardize) | Fold 3/6 metrics={'accuracy': 0.7153562653562654, 'balanced_accuracy': np.float64(0.5173140624415574), 'f1_macro': np.float64(0.5076548341486755), 'precision_macro': np.float64(0.5318536577029859), 'recall_macro': np.float64(0.5173140624415574), 'roc_auc': np.float64(0.6860863006935527), 'aupr': np.float64(0.3292004447698179)}
+2026-07-20 23:07:35 | INFO     | [Adult] QNN Angle (No In-Model Standardize) | Fold 4/6 started
+2026-07-20 23:07:35 | DEBUG    | [Adult] QNN Angle (No In-Model Standardize) | Fold 4/6 PCA applied with max_features=8
+2026-07-20 23:07:35 | INFO     | [Adult] QNN Angle (No In-Model Standardize) | Fold 4/6 Optuna started (trials=20)
+2026-07-21 04:03:29 | INFO     | [Adult] QNN Angle (No In-Model Standardize) | Fold 4/6 Optuna finished | best_value=0.579692 | best_params={'learning_rate': 0.11800737135553191}
+2026-07-21 04:21:52 | INFO     | [Adult] QNN Angle (No In-Model Standardize) | Fold 4/6 finished
+2026-07-21 04:21:52 | DEBUG    | [Adult] QNN Angle (No In-Model Standardize) | Fold 4/6 metrics={'accuracy': 0.7212530712530713, 'balanced_accuracy': np.float64(0.5133105444396692), 'f1_macro': np.float64(0.4985019268117019), 'precision_macro': np.float64(0.5283907014051586), 'recall_macro': np.float64(0.5133105444396692), 'roc_auc': np.float64(0.6647692226573071), 'aupr': np.float64(0.3167247582982861)}
+2026-07-21 04:21:52 | INFO     | [Adult] QNN Angle (No In-Model Standardize) | Fold 5/6 started
+2026-07-21 04:21:52 | DEBUG    | [Adult] QNN Angle (No In-Model Standardize) | Fold 5/6 PCA applied with max_features=8
+2026-07-21 04:21:52 | INFO     | [Adult] QNN Angle (No In-Model Standardize) | Fold 5/6 Optuna started (trials=20)
+2026-07-21 09:12:50 | INFO     | [Adult] QNN Angle (No In-Model Standardize) | Fold 5/6 Optuna finished | best_value=0.611262 | best_params={'learning_rate': 0.24794451791833957}
+2026-07-21 09:30:58 | INFO     | [Adult] QNN Angle (No In-Model Standardize) | Fold 5/6 finished
+2026-07-21 09:30:58 | DEBUG    | [Adult] QNN Angle (No In-Model Standardize) | Fold 5/6 metrics={'accuracy': 0.7186732186732187, 'balanced_accuracy': np.float64(0.520411015869984), 'f1_macro': np.float64(0.5110942365950761), 'precision_macro': np.float64(0.53823083287369), 'recall_macro': np.float64(0.520411015869984), 'roc_auc': np.float64(0.5622774003947598), 'aupr': np.float64(0.2719065956843185)}
+2026-07-21 09:30:58 | INFO     | [Adult] QNN Angle (No In-Model Standardize) | Fold 6/6 started
+2026-07-21 09:30:58 | DEBUG    | [Adult] QNN Angle (No In-Model Standardize) | Fold 6/6 PCA applied with max_features=8
+2026-07-21 09:30:58 | INFO     | [Adult] QNN Angle (No In-Model Standardize) | Fold 6/6 Optuna started (trials=20)
+2026-07-21 14:21:42 | INFO     | [Adult] QNN Angle (No In-Model Standardize) | Fold 6/6 Optuna finished | best_value=0.583696 | best_params={'learning_rate': 0.1302451083735114}
+2026-07-21 14:39:48 | INFO     | [Adult] QNN Angle (No In-Model Standardize) | Fold 6/6 finished
+2026-07-21 14:39:48 | DEBUG    | [Adult] QNN Angle (No In-Model Standardize) | Fold 6/6 metrics={'accuracy': 0.7207616707616707, 'balanced_accuracy': np.float64(0.5045431874738021), 'f1_macro': np.float64(0.48350010137536914), 'precision_macro': np.float64(0.5108754434273524), 'recall_macro': np.float64(0.5045431874738021), 'roc_auc': np.float64(0.6296238953753668), 'aupr': np.float64(0.2923662853611806)}
+2026-07-21 14:39:48 | INFO     | [Adult] QNN Angle (No In-Model Standardize) finished
+2026-07-21 14:39:48 | DEBUG    | [Adult] QNN Angle (No In-Model Standardize) summary={'accuracy': '0.7218 ± 0.0071', 'balanced_accuracy': '0.5191 ± 0.0141', 'f1_macro': '0.5074 ± 0.0201', 'precision_macro': '0.5368 ± 0.0247', 'recall_macro': '0.5191 ± 0.0141', 'roc_auc': '0.6457 ± 0.0454', 'aupr': '0.3119 ± 0.0251'}
+2026-07-21 14:39:48 | INFO     | [Adult] QNN Amplitude Raw started
+2026-07-21 14:39:48 | INFO     | [Adult] QNN Amplitude Raw | Fold 1/6 started
+2026-07-21 14:39:48 | INFO     | [Adult] QNN Amplitude Raw | Fold 1/6 Optuna started (trials=20)
+2026-07-21 16:22:39 | INFO     | [Adult] QNN Amplitude Raw | Fold 1/6 Optuna finished | best_value=0.657868 | best_params={'learning_rate': 0.2673028950716399}
+2026-07-21 16:29:05 | INFO     | [Adult] QNN Amplitude Raw | Fold 1/6 finished
+2026-07-21 16:29:05 | DEBUG    | [Adult] QNN Amplitude Raw | Fold 1/6 metrics={'accuracy': 0.7518732342464071, 'balanced_accuracy': np.float64(0.5014004103460521), 'f1_macro': np.float64(0.44827815271640015), 'precision_macro': np.float64(0.5137353881876231), 'recall_macro': np.float64(0.5014004103460521), 'roc_auc': np.float64(0.6478443155168566), 'aupr': np.float64(0.33228953052581045)}
+2026-07-21 16:29:05 | INFO     | [Adult] QNN Amplitude Raw | Fold 2/6 started
+2026-07-21 16:29:05 | INFO     | [Adult] QNN Amplitude Raw | Fold 2/6 Optuna started (trials=20)
+2026-07-21 18:13:00 | INFO     | [Adult] QNN Amplitude Raw | Fold 2/6 Optuna finished | best_value=0.504307 | best_params={'learning_rate': 0.22305138393464374}
+2026-07-21 18:19:30 | INFO     | [Adult] QNN Amplitude Raw | Fold 2/6 finished
+2026-07-21 18:19:30 | DEBUG    | [Adult] QNN Amplitude Raw | Fold 2/6 metrics={'accuracy': 0.7607173565900995, 'balanced_accuracy': np.float64(0.5), 'f1_macro': np.float64(0.43204967210827405), 'precision_macro': np.float64(0.38035867829504977), 'recall_macro': np.float64(0.5), 'roc_auc': np.float64(0.6898921449036154), 'aupr': np.float64(0.3888284544565684)}
+2026-07-21 18:19:30 | INFO     | [Adult] QNN Amplitude Raw | Fold 3/6 started
+2026-07-21 18:19:30 | INFO     | [Adult] QNN Amplitude Raw | Fold 3/6 Optuna started (trials=20)
+2026-07-21 20:04:13 | INFO     | [Adult] QNN Amplitude Raw | Fold 3/6 Optuna finished | best_value=0.502405 | best_params={'learning_rate': 0.23434088122160607}
+2026-07-21 20:10:41 | INFO     | [Adult] QNN Amplitude Raw | Fold 3/6 finished
+2026-07-21 20:10:41 | DEBUG    | [Adult] QNN Amplitude Raw | Fold 3/6 metrics={'accuracy': 0.7608108108108108, 'balanced_accuracy': np.float64(0.5), 'f1_macro': np.float64(0.43207981580967), 'precision_macro': np.float64(0.3804054054054054), 'recall_macro': np.float64(0.5), 'roc_auc': np.float64(0.6360599732736673), 'aupr': np.float64(0.33220404581461704)}
+2026-07-21 20:10:41 | INFO     | [Adult] QNN Amplitude Raw | Fold 4/6 started
+2026-07-21 20:10:41 | INFO     | [Adult] QNN Amplitude Raw | Fold 4/6 Optuna started (trials=20)
+2026-07-21 21:54:00 | INFO     | [Adult] QNN Amplitude Raw | Fold 4/6 Optuna finished | best_value=0.500718 | best_params={'learning_rate': 0.12386673848292597}
+2026-07-21 22:00:32 | INFO     | [Adult] QNN Amplitude Raw | Fold 4/6 finished
+2026-07-21 22:00:32 | DEBUG    | [Adult] QNN Amplitude Raw | Fold 4/6 metrics={'accuracy': 0.7605651105651106, 'balanced_accuracy': np.float64(0.49991925064599485), 'f1_macro': np.float64(0.4320005582304096), 'precision_macro': np.float64(0.38032927878117706), 'recall_macro': np.float64(0.49991925064599485), 'roc_auc': np.float64(0.7058388083716686), 'aupr': np.float64(0.3734725589788159)}
+2026-07-21 22:00:32 | INFO     | [Adult] QNN Amplitude Raw | Fold 5/6 started
+2026-07-21 22:00:33 | INFO     | [Adult] QNN Amplitude Raw | Fold 5/6 Optuna started (trials=20)
+2026-07-21 23:44:41 | INFO     | [Adult] QNN Amplitude Raw | Fold 5/6 Optuna finished | best_value=0.501803 | best_params={'learning_rate': 0.10120291078590232}
+2026-07-21 23:51:20 | INFO     | [Adult] QNN Amplitude Raw | Fold 5/6 finished
+2026-07-21 23:51:20 | DEBUG    | [Adult] QNN Amplitude Raw | Fold 5/6 metrics={'accuracy': 0.7606879606879607, 'balanced_accuracy': np.float64(0.5), 'f1_macro': np.float64(0.4320401897850963), 'precision_macro': np.float64(0.38034398034398037), 'recall_macro': np.float64(0.5), 'roc_auc': np.float64(0.8094597122073126), 'aupr': np.float64(0.5666289378296887)}
+2026-07-21 23:51:20 | INFO     | [Adult] QNN Amplitude Raw | Fold 6/6 started
+2026-07-21 23:51:21 | INFO     | [Adult] QNN Amplitude Raw | Fold 6/6 Optuna started (trials=20)
+2026-07-22 01:38:00 | INFO     | [Adult] QNN Amplitude Raw | Fold 6/6 Optuna finished | best_value=0.542301 | best_params={'learning_rate': 0.29819572340564626}
+2026-07-22 01:44:30 | INFO     | [Adult] QNN Amplitude Raw | Fold 6/6 finished
+2026-07-22 01:44:30 | DEBUG    | [Adult] QNN Amplitude Raw | Fold 6/6 metrics={'accuracy': 0.7524570024570024, 'balanced_accuracy': np.float64(0.49969159384301925), 'f1_macro': np.float64(0.44307364160217927), 'precision_macro': np.float64(0.4962869619463506), 'recall_macro': np.float64(0.49969159384301925), 'roc_auc': np.float64(0.5400721985445882), 'aupr': np.float64(0.25034798806969166)}
+2026-07-22 01:44:30 | INFO     | [Adult] QNN Amplitude Raw finished
+2026-07-22 01:44:30 | DEBUG    | [Adult] QNN Amplitude Raw summary={'accuracy': '0.7579 ± 0.0044', 'balanced_accuracy': '0.5002 ± 0.0006', 'f1_macro': '0.4366 ± 0.0072', 'precision_macro': '0.4219 ± 0.0646', 'recall_macro': '0.5002 ± 0.0006', 'roc_auc': '0.6715 ± 0.089', 'aupr': '0.374 ± 0.1059'}
+2026-07-22 01:44:30 | INFO     | [Adult] QNN Amplitude + RadialToLinear started
+2026-07-22 01:44:30 | INFO     | [Adult] QNN Amplitude + RadialToLinear | Fold 1/6 started
+2026-07-22 01:44:30 | INFO     | [Adult] QNN Amplitude + RadialToLinear | Fold 1/6 Optuna started (trials=20)
+2026-07-22 04:06:13 | INFO     | [Adult] QNN Amplitude + RadialToLinear | Fold 1/6 Optuna finished | best_value=0.500000 | best_params={'learning_rate': 0.0043299760747054095}
+2026-07-22 04:15:01 | INFO     | [Adult] QNN Amplitude + RadialToLinear | Fold 1/6 finished
+2026-07-22 04:15:01 | DEBUG    | [Adult] QNN Amplitude + RadialToLinear | Fold 1/6 metrics={'accuracy': 0.7607173565900995, 'balanced_accuracy': np.float64(0.5), 'f1_macro': np.float64(0.43204967210827405), 'precision_macro': np.float64(0.38035867829504977), 'recall_macro': np.float64(0.5), 'roc_auc': np.float64(0.6067630423963467), 'aupr': np.float64(0.2975261313070061)}
+2026-07-22 04:15:01 | INFO     | [Adult] QNN Amplitude + RadialToLinear | Fold 2/6 started
+2026-07-22 04:15:01 | INFO     | [Adult] QNN Amplitude + RadialToLinear | Fold 2/6 Optuna started (trials=20)
+2026-07-22 06:38:04 | INFO     | [Adult] QNN Amplitude + RadialToLinear | Fold 2/6 Optuna finished | best_value=0.500257 | best_params={'learning_rate': 0.00989475937786748}
+2026-07-22 06:46:53 | INFO     | [Adult] QNN Amplitude + RadialToLinear | Fold 2/6 finished
+2026-07-22 06:46:53 | DEBUG    | [Adult] QNN Amplitude + RadialToLinear | Fold 2/6 metrics={'accuracy': 0.7607173565900995, 'balanced_accuracy': np.float64(0.5), 'f1_macro': np.float64(0.43204967210827405), 'precision_macro': np.float64(0.38035867829504977), 'recall_macro': np.float64(0.5), 'roc_auc': np.float64(0.6173720345982465), 'aupr': np.float64(0.30182201656040386)}
+2026-07-22 06:46:53 | INFO     | [Adult] QNN Amplitude + RadialToLinear | Fold 3/6 started
+2026-07-22 06:46:53 | INFO     | [Adult] QNN Amplitude + RadialToLinear | Fold 3/6 Optuna started (trials=20)
+2026-07-22 09:10:42 | INFO     | [Adult] QNN Amplitude + RadialToLinear | Fold 3/6 Optuna finished | best_value=0.502449 | best_params={'learning_rate': 0.02472920383818442}
+2026-07-22 09:19:43 | INFO     | [Adult] QNN Amplitude + RadialToLinear | Fold 3/6 finished
+2026-07-22 09:19:43 | DEBUG    | [Adult] QNN Amplitude + RadialToLinear | Fold 3/6 metrics={'accuracy': 0.7609336609336609, 'balanced_accuracy': np.float64(0.5002568053415511), 'f1_macro': np.float64(0.4326233107401424), 'precision_macro': np.float64(0.8804521439980342), 'recall_macro': np.float64(0.5002568053415511), 'roc_auc': np.float64(0.5842473289632055), 'aupr': np.float64(0.2878323318222162)}
+2026-07-22 09:19:43 | INFO     | [Adult] QNN Amplitude + RadialToLinear | Fold 4/6 started
+2026-07-22 09:19:43 | INFO     | [Adult] QNN Amplitude + RadialToLinear | Fold 4/6 Optuna started (trials=20)
+2026-07-22 11:46:54 | INFO     | [Adult] QNN Amplitude + RadialToLinear | Fold 4/6 Optuna finished | best_value=0.500000 | best_params={'learning_rate': 0.0012686635777259315}
+2026-07-22 11:55:54 | INFO     | [Adult] QNN Amplitude + RadialToLinear | Fold 4/6 finished
+2026-07-22 11:55:54 | DEBUG    | [Adult] QNN Amplitude + RadialToLinear | Fold 4/6 metrics={'accuracy': 0.7606879606879607, 'balanced_accuracy': np.float64(0.5), 'f1_macro': np.float64(0.4320401897850963), 'precision_macro': np.float64(0.38034398034398037), 'recall_macro': np.float64(0.5), 'roc_auc': np.float64(0.6060853343255389), 'aupr': np.float64(0.2996750664973248)}
+2026-07-22 11:55:54 | INFO     | [Adult] QNN Amplitude + RadialToLinear | Fold 5/6 started
+2026-07-22 11:55:54 | INFO     | [Adult] QNN Amplitude + RadialToLinear | Fold 5/6 Optuna started (trials=20)
+2026-07-22 14:21:30 | INFO     | [Adult] QNN Amplitude + RadialToLinear | Fold 5/6 Optuna finished | best_value=0.500000 | best_params={'learning_rate': 0.006762710604722696}
+2026-07-22 14:30:38 | INFO     | [Adult] QNN Amplitude + RadialToLinear | Fold 5/6 finished
+2026-07-22 14:30:38 | DEBUG    | [Adult] QNN Amplitude + RadialToLinear | Fold 5/6 metrics={'accuracy': 0.7606879606879607, 'balanced_accuracy': np.float64(0.5), 'f1_macro': np.float64(0.4320401897850963), 'precision_macro': np.float64(0.38034398034398037), 'recall_macro': np.float64(0.5), 'roc_auc': np.float64(0.628534235073142), 'aupr': np.float64(0.3070828453923946)}
+2026-07-22 14:30:38 | INFO     | [Adult] QNN Amplitude + RadialToLinear | Fold 6/6 started
+2026-07-22 14:30:38 | INFO     | [Adult] QNN Amplitude + RadialToLinear | Fold 6/6 Optuna started (trials=20)
+2026-07-22 16:55:51 | INFO     | [Adult] QNN Amplitude + RadialToLinear | Fold 6/6 Optuna finished | best_value=0.500000 | best_params={'learning_rate': 0.012013181441158302}
+2026-07-22 17:04:47 | INFO     | [Adult] QNN Amplitude + RadialToLinear | Fold 6/6 finished
+2026-07-22 17:04:47 | DEBUG    | [Adult] QNN Amplitude + RadialToLinear | Fold 6/6 metrics={'accuracy': 0.7606879606879607, 'balanced_accuracy': np.float64(0.5), 'f1_macro': np.float64(0.4320401897850963), 'precision_macro': np.float64(0.38034398034398037), 'recall_macro': np.float64(0.5), 'roc_auc': np.float64(0.6151419049684563), 'aupr': np.float64(0.2984031464011292)}
+2026-07-22 17:04:47 | INFO     | [Adult] QNN Amplitude + RadialToLinear finished
+2026-07-22 17:04:47 | DEBUG    | [Adult] QNN Amplitude + RadialToLinear summary={'accuracy': '0.7607 ± 0.0001', 'balanced_accuracy': '0.5 ± 0.0001', 'f1_macro': '0.4321 ± 0.0002', 'precision_macro': '0.4637 ± 0.2042', 'recall_macro': '0.5 ± 0.0001', 'roc_auc': '0.6097 ± 0.0149', 'aupr': '0.2987 ± 0.0063'}
+2026-07-22 17:04:47 | INFO     | [Adult] Pairwise significance analysis completed
+2026-07-22 17:04:47 | DEBUG    | [Adult] Pairwise significance results=[{'model_a': 'Classical NN (16, 16)', 'model_b': 'QNN Angle (No In-Model Standardize)', 'acc_a': 0.853896236845338, 'acc_b': 0.7217558658531592, 'acc_diff_a_minus_b': 0.1321403709921788, 'b_a_correct_b_wrong': 9210, 'c_a_wrong_b_correct': 2756, 'discordant': 11966, 'p_value': 0.0, 'p_value_holm': 0.0, 'significant_0.05': True}, {'model_a': 'Classical NN (16, 16)', 'model_b': 'QNN Amplitude Raw', 'acc_a': 0.853896236845338, 'acc_b': 0.7578518488186397, 'acc_diff_a_minus_b': 0.09604438802669835, 'b_a_correct_b_wrong': 7354, 'c_a_wrong_b_correct': 2663, 'discordant': 10017, 'p_value': 0.0, 'p_value_holm': 0.0, 'significant_0.05': True}, {'model_a': 'Classical NN (16, 16)', 'model_b': 'QNN Amplitude + RadialToLinear', 'acc_a': 0.853896236845338, 'acc_b': 0.7607387084885959, 'acc_diff_a_minus_b': 0.09315752835674207, 'b_a_correct_b_wrong': 7206, 'c_a_wrong_b_correct': 2656, 'discordant': 9862, 'p_value': 0.0, 'p_value_holm': 0.0, 'significant_0.05': True}, {'model_a': 'QNN Angle (No In-Model Standardize)', 'model_b': 'QNN Amplitude Raw', 'acc_a': 0.7217558658531592, 'acc_b': 0.7578518488186397, 'acc_diff_a_minus_b': -0.036095982965480444, 'b_a_correct_b_wrong': 1713, 'c_a_wrong_b_correct': 3476, 'discordant': 5189, 'p_value': 9.359956258878081e-135, 'p_value_holm': 1.8719912517756162e-134, 'significant_0.05': True}, {'model_a': 'QNN Angle (No In-Model Standardize)', 'model_b': 'QNN Amplitude + RadialToLinear', 'acc_a': 0.7217558658531592, 'acc_b': 0.7607387084885959, 'acc_diff_a_minus_b': -0.03898284263543672, 'b_a_correct_b_wrong': 1526, 'c_a_wrong_b_correct': 3430, 'discordant': 4956, 'p_value': 4.449591769867773e-165, 'p_value_holm': 1.3348775309603319e-164, 'significant_0.05': True}, {'model_a': 'QNN Amplitude Raw', 'model_b': 'QNN Amplitude + RadialToLinear', 'acc_a': 0.7578518488186397, 'acc_b': 0.7607387084885959, 'acc_diff_a_minus_b': -0.0028868596699562765, 'b_a_correct_b_wrong': 70, 'c_a_wrong_b_correct': 211, 'discordant': 281, 'p_value': 1.3481746546838143e-17, 'p_value_holm': 1.3481746546838143e-17, 'significant_0.05': True}]
+2026-07-22 17:04:47 | INFO     | Dataset finished: Adult
+2026-07-22 17:04:47 | INFO     | Benchmark run completed successfully

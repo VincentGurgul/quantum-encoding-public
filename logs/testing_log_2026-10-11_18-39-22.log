@@ -1,0 +1,42 @@
+2026-10-11 18:39:22 | INFO     | Testing benchmark run started
+2026-10-11 18:39:22 | INFO     | Results file: results/testing_results_2026-10-11_18-39-22.txt
+2026-10-11 18:39:22 | INFO     | Log file: logs/testing_log_2026-10-11_18-39-22.log
+2026-10-11 18:39:22 | DEBUG    | Configuration | seed=69 | cv_folds=6 | datasets=['Breast Cancer', 'Wine', 'Digits', 'Adult', 'Synthetic NL']
+2026-10-11 18:39:22 | INFO     | Dataset started: Breast Cancer
+2026-10-11 18:39:22 | INFO     | [Breast Cancer] Classical NN (16, 16) started
+2026-10-11 18:39:22 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 1/6 started
+2026-10-11 18:39:22 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 1/6 Optuna started (trials=20)
+2026-10-11 18:39:25 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 1/6 Optuna finished | best_value=1.000000 | best_params={'lr': 0.010806263846648557, 'weight_decay': 0.0012011780045524752}
+2026-10-11 18:39:25 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 1/6 finished
+2026-10-11 18:39:25 | DEBUG    | [Breast Cancer] Classical NN (16, 16) | Fold 1/6 metrics={'accuracy': 0.968421052631579, 'balanced_accuracy': np.float64(0.9583333333333333), 'f1_macro': np.float64(0.9658641753503414), 'precision_macro': np.float64(0.9758064516129032), 'recall_macro': np.float64(0.9583333333333333), 'roc_auc': np.float64(0.9990583804143126), 'aupr': np.float64(0.9994302403523889)}
+2026-10-11 18:39:25 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 2/6 started
+2026-10-11 18:39:25 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 2/6 Optuna started (trials=20)
+2026-10-11 18:39:28 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 2/6 Optuna finished | best_value=0.985714 | best_params={'lr': 0.0072940482071978, 'weight_decay': 0.005000377710567547}
+2026-10-11 18:39:28 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 2/6 finished
+2026-10-11 18:39:28 | DEBUG    | [Breast Cancer] Classical NN (16, 16) | Fold 2/6 metrics={'accuracy': 0.968421052631579, 'balanced_accuracy': np.float64(0.9583333333333333), 'f1_macro': np.float64(0.9658641753503414), 'precision_macro': np.float64(0.9758064516129032), 'recall_macro': np.float64(0.9583333333333333), 'roc_auc': np.float64(0.9929378531073446), 'aupr': np.float64(0.9956222043750451)}
+2026-10-11 18:39:28 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 3/6 started
+2026-10-11 18:39:28 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 3/6 Optuna started (trials=20)
+2026-10-11 18:39:30 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 3/6 Optuna finished | best_value=0.991667 | best_params={'lr': 0.09939027133334294, 'weight_decay': 2.461608180191498e-06}
+2026-10-11 18:39:30 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 3/6 finished
+2026-10-11 18:39:30 | DEBUG    | [Breast Cancer] Classical NN (16, 16) | Fold 3/6 metrics={'accuracy': 0.9789473684210527, 'balanced_accuracy': np.float64(0.9773809523809524), 'f1_macro': np.float64(0.9773809523809524), 'precision_macro': np.float64(0.9773809523809524), 'recall_macro': np.float64(0.9773809523809524), 'roc_auc': np.float64(0.998095238095238), 'aupr': np.float64(0.9989583333333334)}
+2026-10-11 18:39:30 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 4/6 started
+2026-10-11 18:39:30 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 4/6 Optuna started (trials=20)
+2026-10-11 18:39:32 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 4/6 Optuna finished | best_value=0.971429 | best_params={'lr': 0.03509464626551168, 'weight_decay': 1.829990270958296e-06}
+2026-10-11 18:39:32 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 4/6 finished
+2026-10-11 18:39:32 | DEBUG    | [Breast Cancer] Classical NN (16, 16) | Fold 4/6 metrics={'accuracy': 0.9894736842105263, 'balanced_accuracy': np.float64(0.9857142857142858), 'f1_macro': np.float64(0.9886213917834472), 'precision_macro': np.float64(0.9918032786885246), 'recall_macro': np.float64(0.9857142857142858), 'roc_auc': np.float64(1.0), 'aupr': np.float64(0.9999999999999998)}
+2026-10-11 18:39:32 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 5/6 started
+2026-10-11 18:39:32 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 5/6 Optuna started (trials=20)
+2026-10-11 18:39:35 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 5/6 Optuna finished | best_value=0.985714 | best_params={'lr': 0.011090487351529257, 'weight_decay': 7.120699591726957e-06}
+2026-10-11 18:39:35 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 5/6 finished
+2026-10-11 18:39:35 | DEBUG    | [Breast Cancer] Classical NN (16, 16) | Fold 5/6 metrics={'accuracy': 0.968421052631579, 'balanced_accuracy': np.float64(0.969047619047619), 'f1_macro': np.float64(0.966268197419813), 'precision_macro': np.float64(0.9637476459510358), 'recall_macro': np.float64(0.969047619047619), 'roc_auc': np.float64(0.9976190476190476), 'aupr': np.float64(0.9985867583201425)}
+2026-10-11 18:39:35 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 6/6 started
+2026-10-11 18:39:35 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 6/6 Optuna started (trials=20)
+2026-10-11 18:39:37 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 6/6 Optuna finished | best_value=0.985714 | best_params={'lr': 0.03910309615297964, 'weight_decay': 6.963219639375552e-07}
+2026-10-11 18:39:37 | INFO     | [Breast Cancer] Classical NN (16, 16) | Fold 6/6 finished
+2026-10-11 18:39:37 | DEBUG    | [Breast Cancer] Classical NN (16, 16) | Fold 6/6 metrics={'accuracy': 0.9787234042553191, 'balanced_accuracy': np.float64(0.9714285714285714), 'f1_macro': np.float64(0.9769607843137255), 'precision_macro': np.float64(0.9836065573770492), 'recall_macro': np.float64(0.9714285714285714), 'roc_auc': np.float64(0.9825665859564164), 'aupr': np.float64(0.984679453640708)}
+2026-10-11 18:39:37 | INFO     | [Breast Cancer] Classical NN (16, 16) finished
+2026-10-11 18:39:37 | DEBUG    | [Breast Cancer] Classical NN (16, 16) summary={'accuracy': '0.9754 ± 0.0086', 'balanced_accuracy': '0.97 ± 0.0107', 'f1_macro': '0.9735 ± 0.0092', 'precision_macro': '0.978 ± 0.0093', 'recall_macro': '0.97 ± 0.0107', 'roc_auc': '0.995 ± 0.0066', 'aupr': '0.9962 ± 0.0059'}
+2026-10-11 18:39:37 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) started
+2026-10-11 18:39:37 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 1/6 started
+2026-10-11 18:39:37 | DEBUG    | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 1/6 PCA applied with max_features=8
+2026-10-11 18:39:37 | INFO     | [Breast Cancer] QNN Angle (No In-Model Standardize) | Fold 1/6 Optuna started (trials=20)
